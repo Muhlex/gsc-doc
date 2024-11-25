@@ -1,0 +1,16 @@
+{
+	"usage": "<player> dropItem(<item name>)",
+	"description": [
+		"Drop an item with the given item name.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "item name",
+			"types": ["string"],
+			"description": ["The name of the item to drop."],
+			"optional": false
+		}
+	],
+	"example": ["self dropItem(current);"]
+}

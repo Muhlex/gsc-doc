@@ -1,0 +1,16 @@
+{
+	"usage": "<player> giveStartAmmo(<weapon>)",
+	"description": [
+		"Set the player's ammunition to the weapon's default starting ammunition.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"example": ["self giveStartAmmo(self.pers[\"weapon\"]);"]
+}

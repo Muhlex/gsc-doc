@@ -1,0 +1,16 @@
+{
+	"usage": "<hud> setMapNameString(<map name>)",
+	"description": [
+		"Set the map name string.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "map name",
+			"types": ["string"],
+			"description": ["A string containing the map name."],
+			"optional": false
+		}
+	],
+	"example": ["hud setMapNameString(\"Crash\");"]
+}

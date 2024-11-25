@@ -1,0 +1,18 @@
+{
+	"usage": "<entity> setLightIntensity(<intensity>)",
+	"description": [
+		"Sets the current intensity of the light.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "intensity",
+			"types": ["float"],
+			"description": [
+				"A new value for the intensity of the light. 1 is fullbright, but values can be larger than 1."
+			],
+			"optional": false
+		}
+	],
+	"example": ["self setLightIntensity(1.5);"]
+}

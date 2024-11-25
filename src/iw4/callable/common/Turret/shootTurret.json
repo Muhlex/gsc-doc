@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> shootTurret()",
+	"description": [
+		"Shoots a turret.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["roofMg42 shootTurret();"]
+}

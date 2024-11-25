@@ -1,0 +1,19 @@
+{
+	"usage": "weaponInventoryType(<weapon>)",
+	"description": [
+		"Returns the way this weapon is stored, such as \"altmode\", \"item\", \"offhand\", or \"primary\".",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["string"]
+	},
+	"example": ["if (weaponInventoryType(\"rpg_mp\") == \"item\") {\n  // Code\n}"]
+}

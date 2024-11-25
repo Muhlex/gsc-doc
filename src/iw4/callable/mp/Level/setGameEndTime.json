@@ -1,0 +1,16 @@
+{
+	"usage": "setGameEndTime(<time>)",
+	"description": [
+		"Sets the time the current match will end.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "time",
+			"types": ["int"],
+			"description": ["Game end time."],
+			"optional": false
+		}
+	],
+	"example": ["setGameEndTime(getTime() + 100000);"]
+}

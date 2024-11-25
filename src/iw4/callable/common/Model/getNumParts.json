@@ -1,0 +1,19 @@
+{
+	"usage": "getNumParts(<xmodel name>)",
+	"description": [
+		"Gets the number of bones in the xmodel.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "xmodel name",
+			"types": ["string"],
+			"description": ["Name of the xmodel."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["int"]
+	},
+	"example": ["parts = getNumParts(\"viewhands_player_blackkit\");"]
+}

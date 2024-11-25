@@ -1,0 +1,6 @@
+{
+	"description": ["Enable a player's weapons and raise the most recently used one."],
+	"receiver": {
+		"types": ["player"]
+	}
+}

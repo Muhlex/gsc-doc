@@ -1,0 +1,16 @@
+{
+	"usage": "setDebugOrigin(<origin>)",
+	"description": [
+		"Set the debugging origin for a debug camera.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "origin",
+			"types": ["Vector3"],
+			"description": ["The debug player position."],
+			"optional": false
+		}
+	],
+	"example": ["setDebugOrigin(camera.origin + (0,0,-60));"]
+}

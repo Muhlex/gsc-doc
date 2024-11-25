@@ -1,0 +1,11 @@
+{
+	"usage": "<player> isOnLadder()",
+	"description": [
+		"Return true if the player is on a ladder, false otherwise.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["self isOnLadder();"]
+}

@@ -1,0 +1,16 @@
+{
+	"usage": "setCullDist(<cull distance>)",
+	"description": [
+		"Set the cull distance for a level.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "cull distance",
+			"types": ["int"],
+			"description": ["The cull distance."],
+			"optional": false
+		}
+	],
+	"example": ["setCullDist(7200);"]
+}

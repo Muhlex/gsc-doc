@@ -1,0 +1,16 @@
+{
+	"usage": "<player> enableHealthShield(<enabled>)",
+	"description": [
+		"Sets whether the player's health shield is active.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "enabled",
+			"types": ["bool"],
+			"description": ["A boolean: true to enable the health shield, false otherwise."],
+			"optional": false
+		}
+	],
+	"example": ["level.player enableHealthShield(false);"]
+}

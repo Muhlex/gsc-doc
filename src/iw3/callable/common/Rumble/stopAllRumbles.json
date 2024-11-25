@@ -1,0 +1,5 @@
+{
+	"usage": "stopAllRumbles()",
+	"description": ["Stops all of the current rumbles."],
+	"example": ["stopAllRumbles();"]
+}

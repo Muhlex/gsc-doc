@@ -1,0 +1,8 @@
+{
+	"usage": "<hud> clearAllTextAfterHudElem()",
+	"description": [
+		"Clear the config strings for the unique text set after this string. This is intended for development use only.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["level.freeTextMarker clearAllTextAfterHudElem();"]
+}

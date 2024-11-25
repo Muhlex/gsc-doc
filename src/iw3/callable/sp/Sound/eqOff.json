@@ -1,0 +1,5 @@
+{
+	"usage": "<entity> eqOff()",
+	"description": ["Disables EQ on an entity."],
+	"example": ["ai eqOff();"]
+}

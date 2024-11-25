@@ -1,0 +1,5 @@
+{
+	"usage": "<entity> show()",
+	"description": ["Show a hidden entity."],
+	"example": ["brokenWindow show();"]
+}

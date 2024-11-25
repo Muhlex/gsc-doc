@@ -1,0 +1,16 @@
+{
+	"usage": "<player> switchToWeapon(<weapon>)",
+	"description": [
+		"Switch to a different weapon.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"example": ["level.player switchToWeapon(\"mosin_nagant\");"]
+}

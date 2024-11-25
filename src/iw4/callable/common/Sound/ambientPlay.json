@@ -1,0 +1,22 @@
+{
+	"usage": "ambientPlay(<ambient>, <fadetime>)",
+	"description": [
+		"Play the given piece of ambient sound.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "ambient",
+			"types": ["string"],
+			"description": ["Sound alias name. Must be a valid sound alias."],
+			"optional": false
+		},
+		{
+			"name": "fadetime",
+			"types": ["float"],
+			"description": ["Fade in time in seconds. If not used, the track will start immediately."],
+			"optional": true
+		}
+	],
+	"example": ["ambientPlay(\"redsquare_dark\");"]
+}

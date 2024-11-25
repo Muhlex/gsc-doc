@@ -1,0 +1,5 @@
+{
+	"usage": "<entity> removeVehicleFromCompass()",
+	"description": ["Removes this vehicle from the compass."],
+	"example": ["helicopter removeVehicleFromCompass();"]
+}

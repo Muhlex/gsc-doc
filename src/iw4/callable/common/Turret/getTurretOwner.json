@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> getTurretOwner()",
+	"description": [
+		"Gets the owner of this turret.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["mg42User = roofMg42 getTurretOwner();"]
+}

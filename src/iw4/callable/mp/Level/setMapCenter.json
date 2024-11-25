@@ -1,0 +1,16 @@
+{
+	"usage": "setMapCenter(<center>)",
+	"description": [
+		"Set the center of the map (used by the network code to optimize position data).",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "center",
+			"types": ["Vector3"],
+			"description": ["Center of the map."],
+			"optional": false
+		}
+	],
+	"example": ["setMapCenter((0, 0, 0));"]
+}

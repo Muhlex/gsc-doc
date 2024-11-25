@@ -1,0 +1,15 @@
+{
+	"usage": "<actor> fireGrenadeLauncher(<barrel tag>)",
+	"description": [
+		"Use the grenadelauncher. checkGrenadeLaunchPos() or checkGrenadeLaunch() must be called first."
+	],
+	"params": [
+		{
+			"name": "barrel tag",
+			"types": ["string"],
+			"description": ["Barrel tag to fire from."],
+			"optional": false
+		}
+	],
+	"example": ["self fireGrenadeLauncher(tag);"]
+}

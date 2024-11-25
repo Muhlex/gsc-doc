@@ -1,0 +1,28 @@
+{
+	"usage": "<hud> scaleOverTime(<time>, <width>, <height>)",
+	"description": [
+		"Set a HUD element to scale over time.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "time",
+			"types": ["float"],
+			"description": ["The time to scale the element in seconds."],
+			"optional": false
+		},
+		{
+			"name": "width",
+			"types": ["int"],
+			"description": ["The new width of the material."],
+			"optional": false
+		},
+		{
+			"name": "height",
+			"types": ["int"],
+			"description": ["The new height of the material."],
+			"optional": false
+		}
+	],
+	"example": ["other.progressbar scaleOverTime(level.plantTime, level.barSize, 8);"]
+}

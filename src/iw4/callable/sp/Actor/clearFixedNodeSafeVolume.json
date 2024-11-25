@@ -1,0 +1,8 @@
+{
+	"usage": "<actor> clearFixedNodeSafeVolume()",
+	"description": [
+		"Clears this actor's fixed node safe volume.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["self clearFixedNodeSafeVolume()"]
+}

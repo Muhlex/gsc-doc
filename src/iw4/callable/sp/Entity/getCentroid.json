@@ -1,0 +1,11 @@
+{
+	"usage": "<entity> getCentroid()",
+	"description": [
+		"Gets the centroid of an entity.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"return": {
+		"types": ["Vector3"]
+	},
+	"example": ["centroid = self getCentroid();"]
+}

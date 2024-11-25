@@ -1,0 +1,22 @@
+{
+	"usage": "<player> setWeaponAmmoClip(<weapon>, <ammunition>)",
+	"description": [
+		"Set the weapon clip amount for the given weapon.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name for this weapon."],
+			"optional": false
+		},
+		{
+			"name": "ammunition",
+			"types": ["int"],
+			"description": ["The amount of ammunition in the clip."],
+			"optional": false
+		}
+	],
+	"example": ["level.player setWeaponAmmoClip(\"m16\", 30);"]
+}

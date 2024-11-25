@@ -1,0 +1,5 @@
+{
+	"usage": "<actor> flagEnemyUnattackable()",
+	"description": ["Set this actor not to attack its current enemy."],
+	"example": ["self flagEnemyUnattackable();"]
+}

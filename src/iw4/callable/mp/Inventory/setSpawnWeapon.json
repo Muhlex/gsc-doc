@@ -1,0 +1,16 @@
+{
+	"usage": "<player> setSpawnWeapon(<weapon name>)",
+	"description": [
+		"Set the weapon that this player will spawn with.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon name",
+			"types": ["string"],
+			"description": ["The name of the weapon to spawn with."],
+			"optional": false
+		}
+	],
+	"example": ["self setSpawnWeapon(\"ak47\");"]
+}

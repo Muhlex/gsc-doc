@@ -1,0 +1,16 @@
+{
+	"usage": "<hud> setText(<text>)",
+	"description": [
+		"Set HUD text for this element.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "text",
+			"types": ["string"],
+			"description": ["A localized text reference."],
+			"optional": false
+		}
+	],
+	"example": ["level.introString1 setText(string1);"]
+}

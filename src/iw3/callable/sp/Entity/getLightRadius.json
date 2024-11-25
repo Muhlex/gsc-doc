@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> getLightRadius()",
+	"description": ["Gets the current radius of the light."],
+	"return": {
+		"types": ["int"]
+	},
+	"example": ["radius = self getLightRadius();"]
+}

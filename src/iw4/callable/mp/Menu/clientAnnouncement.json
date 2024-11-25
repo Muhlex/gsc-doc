@@ -1,0 +1,22 @@
+{
+	"usage": "clientAnnouncement(<clientnum>, <string>)",
+	"description": [
+		"Sends an announcement to a single client.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "clientnum",
+			"types": ["int"],
+			"description": ["The client number that the announcement is sent to."],
+			"optional": false
+		},
+		{
+			"name": "string",
+			"types": ["string"],
+			"description": ["The announcement."],
+			"optional": false
+		}
+	],
+	"example": ["This function has no official examples."]
+}

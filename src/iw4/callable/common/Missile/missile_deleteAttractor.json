@@ -1,0 +1,16 @@
+{
+	"usage": "missile_deleteAttractor(<attractor>)",
+	"description": [
+		"Deletes a missle attractor or repulsor.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "attractor",
+			"types": ["Entity"],
+			"description": ["The attractor or repulsor to delete."],
+			"optional": false
+		}
+	],
+	"example": ["missile_deleteAttractor(attractor);"]
+}

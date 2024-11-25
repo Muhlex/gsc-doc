@@ -1,0 +1,16 @@
+{
+	"usage": "getTeamRadar(<team>)",
+	"description": ["Gets whether a team has radar or not."],
+	"params": [
+		{
+			"name": "team",
+			"types": ["string"],
+			"description": ["The team, either \"axis\", \"allies\" or \"none\"."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["if (getTeamRadar(\"allies\")) {\n  // Code\n}"]
+}

@@ -1,0 +1,16 @@
+{
+	"usage": "<player> setPlayerIgnoreRadiusDamage(<player ignore radius damage>)",
+	"description": [
+		"Sets the player to ignore radius damage.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "player ignore radius damage",
+			"types": ["bool"],
+			"description": ["Flag indicating whether the player is to ignore radius damage."],
+			"optional": false
+		}
+	],
+	"example": ["self setPlayerIgnoreRadiusDamage(true);"]
+}

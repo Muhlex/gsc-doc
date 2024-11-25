@@ -1,0 +1,19 @@
+{
+	"usage": "<actor> checkCoverExitPosWithPath(<exit pos>)",
+	"description": [
+		"Check if an exit pos is valid with regard to the AI path.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "exit pos",
+			"types": ["Vector3"],
+			"description": ["The exit animation end position."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["soldier checkCoverExitPosWithPath(exitPos);"]
+}

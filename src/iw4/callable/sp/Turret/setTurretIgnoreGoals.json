@@ -1,0 +1,18 @@
+{
+	"usage": "<entity> setTurretIgnoreGoals(<ignoreGoals>)",
+	"description": [
+		"Sets the ignoreGoals flag for the turret.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "ignoreGoals",
+			"types": ["bool"],
+			"description": [
+				"If this is true then any actor on this turret will ignore his goals, and continue to use the turret. This is useful for vehicle based turrets."
+			],
+			"optional": false
+		}
+	],
+	"example": ["roofMg42 setTurretIgnoreGoals(true);"]
+}

@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> placeSpawnPoint()",
+	"description": [
+		"Raises the spawn point up to make sure it's not in the ground, then drops it back down into the ground.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["spawnpoints[i] placeSpawnPoint();"]
+}

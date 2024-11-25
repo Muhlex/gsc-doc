@@ -1,0 +1,8 @@
+{
+	"usage": "<actor> getFixedNodeSafeVolume()",
+	"description": ["Gets this actor's fixed node safe volume."],
+	"return": {
+		"types": ["entity"]
+	},
+	"example": ["volume = self getFixedNodeSafeVolume();"]
+}

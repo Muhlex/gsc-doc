@@ -1,0 +1,5 @@
+{
+	"usage": "<player> weaponLockFree()",
+	"description": ["Clear the player's weapon lock."],
+	"example": ["level.player weaponLockFree();"]
+}

@@ -1,0 +1,22 @@
+{
+	"usage": "<entity> setAnimTime(<animation>, <time>)",
+	"description": [
+		"Set the time of an animation.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "animation",
+			"types": ["animation"],
+			"description": ["Animation in the tree."],
+			"optional": false
+		},
+		{
+			"name": "time",
+			"types": ["float"],
+			"description": ["Normalized time between 0 and 1."],
+			"optional": false
+		}
+	],
+	"example": ["self setAnimTime(%stand_aim, 0.3);"]
+}

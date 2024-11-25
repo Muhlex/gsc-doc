@@ -1,0 +1,22 @@
+{
+	"usage": "<player> giveWeapon(<weapon>, <variant>)",
+	"description": [
+		"Give the player a weapon.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		},
+		{
+			"name": "variant",
+			"types": ["int"],
+			"description": ["Model variant (0-15)."],
+			"optional": true
+		}
+	],
+	"example": ["self giveWeapon(\"m1garand\");"]
+}

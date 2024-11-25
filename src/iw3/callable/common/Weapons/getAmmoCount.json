@@ -1,0 +1,16 @@
+{
+	"usage": "<player> getAmmoCount(<weapon>)",
+	"description": ["Get the remaining ammo."],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["int"]
+	},
+	"example": ["ammo = self getAmmoCount(\"tear_grenade_mp\");"]
+}

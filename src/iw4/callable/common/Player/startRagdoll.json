@@ -1,0 +1,16 @@
+{
+	"usage": "<entity> startRagdoll(<rig_index>)",
+	"description": [
+		"Begin ragdoll physics for this entity. Does nothing if the entity is already a ragdoll.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "rig_index",
+			"types": ["int"],
+			"description": ["Index of the ragdoll rig to use. Defaults to 0."],
+			"optional": true
+		}
+	],
+	"example": ["self startRagdoll();"]
+}

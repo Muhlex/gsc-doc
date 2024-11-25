@@ -1,0 +1,22 @@
+{
+	"usage": "<entity> moveGravity(<initial velocity>, <time>)",
+	"description": [
+		"Fling this entity.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "initial velocity",
+			"types": ["Vector3"],
+			"description": ["The initial velocity to fling this entity at."],
+			"optional": false
+		},
+		{
+			"name": "time",
+			"types": ["float"],
+			"description": ["The time to move the entity in seconds."],
+			"optional": false
+		}
+	],
+	"example": ["self moveGravity(breakVector, time);"]
+}

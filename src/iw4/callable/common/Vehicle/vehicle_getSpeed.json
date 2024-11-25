@@ -1,0 +1,11 @@
+{
+	"usage": "<entity> getSpeed()",
+	"description": [
+		"Gets the current speed in inches per second.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"return": {
+		"types": ["float"]
+	},
+	"example": ["speed = self getSpeed();"]
+}

@@ -1,0 +1,8 @@
+{
+	"usage": "<player> adsButtonPressed()",
+	"description": ["Check if the player is pressing the \"ADS\" button."],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["while (self adsButtonPressed()) {\n  // Code\n}"]
+}

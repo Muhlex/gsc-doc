@@ -1,0 +1,34 @@
+{
+	"usage": "<entity> doDamage(<health>, <source position>, <attacker>, <inflictor>)",
+	"description": [
+		"Does damage to an entity.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "health",
+			"types": ["int"],
+			"description": ["The amount of damage to do."],
+			"optional": false
+		},
+		{
+			"name": "source position",
+			"types": ["Vector3"],
+			"description": ["The position that the damage comes from."],
+			"optional": false
+		},
+		{
+			"name": "attacker",
+			"types": ["Entity"],
+			"description": ["The entity that dealth the damage (such as an AI or player)."],
+			"optional": true
+		},
+		{
+			"name": "inflictor",
+			"types": ["Entity"],
+			"description": ["The entity that the damage came from (such as a grenade or turret)."],
+			"optional": true
+		}
+	],
+	"example": ["tank doDamage(tank.health + 200, (0, 0, 0));"]
+}

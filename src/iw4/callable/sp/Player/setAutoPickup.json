@@ -1,0 +1,16 @@
+{
+	"usage": "<player> setAutoPickup(<enabled>)",
+	"description": [
+		"Sets whether the player will automatically pick up pickups.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "enabled",
+			"types": ["bool"],
+			"description": ["A boolean: true if the player will automatically pick up pickups."],
+			"optional": false
+		}
+	],
+	"example": ["level.player setAutoPickup(true);"]
+}

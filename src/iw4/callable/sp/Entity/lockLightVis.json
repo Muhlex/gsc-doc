@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> lockLightVis()",
+	"description": [
+		"Locks the lights that are visible by this entity to reduce the calculations for fast entities.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["spawn lockLightVis();"]
+}

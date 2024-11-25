@@ -1,0 +1,28 @@
+{
+	"usage": "playFXOnTag(<effect id >, <entity>, <tag name>)",
+	"description": [
+		"Play this effect on the entity and tag.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "effect id",
+			"types": ["int"],
+			"description": ["The effect id returned by loadFX()."],
+			"optional": false
+		},
+		{
+			"name": "entity",
+			"types": ["entity"],
+			"description": ["The entity to attach the effect to."],
+			"optional": false
+		},
+		{
+			"name": "tag name",
+			"types": ["string"],
+			"description": ["Tag name to attach the effect to."],
+			"optional": false
+		}
+	],
+	"example": ["playFXOnTag(id, ent, tag);"]
+}

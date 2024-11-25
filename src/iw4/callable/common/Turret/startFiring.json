@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> startFiring()",
+	"description": [
+		"Starts a turret firing.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["mg42 startFiring();"]
+}

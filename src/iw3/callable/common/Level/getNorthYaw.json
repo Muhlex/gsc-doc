@@ -1,0 +1,8 @@
+{
+	"usage": "getNorthYaw()",
+	"description": ["Returns the yaw value of North."],
+	"return": {
+		"types": ["float"]
+	},
+	"example": ["northYaw = getNorthYaw();"]
+}

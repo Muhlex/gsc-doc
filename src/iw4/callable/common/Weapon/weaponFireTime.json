@@ -1,0 +1,19 @@
+{
+	"usage": "weaponFireTime(<weapon>)",
+	"description": [
+		"Get the weapon fire time for the given weapon.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["float"]
+	},
+	"example": ["fireTime = weaponFireTime(\"mosin_nagant_sniper\");"]
+}

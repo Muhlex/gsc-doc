@@ -1,0 +1,16 @@
+{
+	"usage": "setWinningPlayer(<player>)",
+	"description": [
+		"Sets a player to be the winner.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "player",
+			"types": ["Entity"],
+			"description": ["The player to set as the winning player."],
+			"optional": false
+		}
+	],
+	"example": ["setWinningPlayer(player);"]
+}

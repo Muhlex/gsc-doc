@@ -1,0 +1,5 @@
+{
+	"usage": "<entity> eqOn()",
+	"description": ["Enables EQ on an entity."],
+	"example": ["ai eqOn();"]
+}

@@ -1,0 +1,16 @@
+{
+	"usage": "kick(<clientnum>)",
+	"description": [
+		"Kicks the specified player.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "clientnum",
+			"types": ["int"],
+			"description": ["The client number of the player to kick."],
+			"optional": false
+		}
+	],
+	"example": ["kick(clientnum);"]
+}

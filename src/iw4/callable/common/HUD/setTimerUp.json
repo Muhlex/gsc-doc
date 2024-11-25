@@ -1,0 +1,16 @@
+{
+	"usage": "<hud> setTimerUp(<time>)",
+	"description": [
+		"Set a timer HUD element to count up.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "time",
+			"types": ["int"],
+			"description": ["The new timer time."],
+			"optional": false
+		}
+	],
+	"example": ["level.reinforcementHud setTimerUp(level.counter);"]
+}

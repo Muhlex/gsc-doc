@@ -1,0 +1,18 @@
+{
+	"usage": "<entity> setCursorHint(<hint>)",
+	"description": [
+		"Sets a visible cursor near to an objective.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "hint",
+			"types": ["string"],
+			"description": [
+				"One of the following strings: \"HINT_NOICON\", \"HINT_ACTIVATE\", \"HINT_HEALTH\", \"HINT_FRIENDLY\"."
+			],
+			"optional": false
+		}
+	],
+	"example": ["trigger setCursorHint(\"HINT_NOICON\");"]
+}

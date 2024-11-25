@@ -1,0 +1,5 @@
+{
+	"usage": "<entity> solid()",
+	"description": ["Set the solid flag, so that this object is collidable."],
+	"example": ["self solid();"]
+}

@@ -1,0 +1,22 @@
+{
+	"name": "gsc-doc",
+	"version": "0.0.0",
+	"description": "",
+	"main": "build/index.ts",
+	"type": "module",
+	"scripts": {
+		"build": "tsx .",
+		"check": "biome check",
+		"format": "biome format --write"
+	},
+	"author": {
+		"name": "murlis"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^22.9.3",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2"
+	}
+}

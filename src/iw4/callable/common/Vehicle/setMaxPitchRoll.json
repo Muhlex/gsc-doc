@@ -1,0 +1,22 @@
+{
+	"usage": "<entity> setMaxPitchRoll(<pitch>, <roll>)",
+	"description": [
+		"Sets max pitch and roll angle for this vehicle.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "pitch",
+			"types": ["float"],
+			"description": ["Max pitch angle."],
+			"optional": false
+		},
+		{
+			"name": "roll",
+			"types": ["float"],
+			"description": ["Max roll angle."],
+			"optional": false
+		}
+	],
+	"example": ["self setMaxPitchRoll(30, 30);"]
+}

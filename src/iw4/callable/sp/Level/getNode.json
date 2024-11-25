@@ -1,0 +1,25 @@
+{
+	"usage": "getNode(<name>, <key>)",
+	"description": [
+		"Gets a node with a given name, key pair.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "name",
+			"types": ["string"],
+			"description": ["Name to search for."],
+			"optional": false
+		},
+		{
+			"name": "key",
+			"types": ["string"],
+			"description": ["Key that name goes with."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["Entity"]
+	},
+	"example": ["node = getNode(self.target, \"targetname\");"]
+}

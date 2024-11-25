@@ -1,0 +1,19 @@
+{
+	"usage": "<entity> getAnimTime(<animation>)",
+	"description": [
+		"Get the animation time for the given animation.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "animation",
+			"types": ["animation"],
+			"description": ["Animation to manipulate."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["float"]
+	},
+	"example": ["if ((self getAnimTime(%walk_and_run_loops)) < 0.5)"]
+}

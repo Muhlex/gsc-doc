@@ -1,0 +1,13 @@
+{
+	"json.schemas": [
+		{
+			"url": "./schemas/callable.json",
+			"fileMatch": ["/src/*/callable/**/*.json"]
+		},
+		{
+			"url": "./schemas/keyword.json",
+			"fileMatch": ["/src/*/keyword.json"]
+		}
+	],
+	"editor.defaultFormatter": "biomejs.biome"
+}

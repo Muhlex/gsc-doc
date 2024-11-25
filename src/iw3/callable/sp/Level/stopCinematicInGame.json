@@ -1,0 +1,5 @@
+{
+	"usage": "stopCinematicInGame()",
+	"description": ["Stop the currently playing cinematic."],
+	"example": ["stopCinematicInGame();"]
+}

@@ -1,0 +1,19 @@
+{
+	"usage": "getAssignedTeam(<player>)",
+	"description": [
+		"Returns the player's team as assigned by matchmaking. 0 = No team, 1 = Axis, 2 = Allies, 3 = Spectator.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "player",
+			"types": ["Entity"],
+			"description": ["The player."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["int"]
+	},
+	"example": ["team = getAssignedTeam(player);"]
+}

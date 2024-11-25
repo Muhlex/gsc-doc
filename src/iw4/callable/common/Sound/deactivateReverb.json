@@ -1,0 +1,26 @@
+{
+	"usage": "<player> deactivateReverb(<priority>, <fade time>)",
+	"description": [
+		"Deactivate the sound reverberation for the player on the given priority level.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "priority",
+			"types": ["string"],
+			"description": [
+				"Valid priorities are \"snd_enveffectsprio_level\" or \"snd_enveffectsprio_shellshock\"."
+			],
+			"optional": false
+		},
+		{
+			"name": "fade time",
+			"types": ["float"],
+			"description": [
+				"The time spent fading to the next lowest active reverb priority level in seconds."
+			],
+			"optional": true
+		}
+	],
+	"example": ["level.player deactivateReverb(\"snd_enveffectsprio_level\", 3);"]
+}

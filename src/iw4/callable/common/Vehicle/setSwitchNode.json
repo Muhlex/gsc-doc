@@ -1,0 +1,22 @@
+{
+	"usage": "<entity> setSwitchNode(<source node>, <dest node>)",
+	"description": [
+		"Sets a switch node for this vehicle.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "source node",
+			"types": ["Entity"],
+			"description": ["The switch source node."],
+			"optional": false
+		},
+		{
+			"name": "dest node",
+			"types": ["Entity"],
+			"description": ["The switch destination node."],
+			"optional": true
+		}
+	],
+	"example": ["tank2 setSwitchNode(tank2SNode1, tank2SNode2);"]
+}

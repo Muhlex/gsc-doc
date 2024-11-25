@@ -1,0 +1,22 @@
+{
+	"usage": "setSavedDvar(<dvar>, <value>)",
+	"description": [
+		"Sets the value of a code \"SAVED\" dvar. Saved dvars are preserved in save games, and reset to default on level change.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "dvar",
+			"types": ["string"],
+			"description": ["The dvar name."],
+			"optional": false
+		},
+		{
+			"name": "value",
+			"types": ["string"],
+			"description": ["The dvar value."],
+			"optional": false
+		}
+	],
+	"example": ["setSavedDvar(\"r_eyesAdjust\", \"1\");"]
+}

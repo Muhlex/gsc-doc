@@ -1,0 +1,16 @@
+{
+	"usage": "<player> setVelocity(<velocity>)",
+	"description": [
+		"Sets the player's velocity.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "velocity",
+			"types": ["Vector3"],
+			"description": ["New player velocity."],
+			"optional": false
+		}
+	],
+	"example": ["level.player setVelocity((-400, 0, 100));"]
+}

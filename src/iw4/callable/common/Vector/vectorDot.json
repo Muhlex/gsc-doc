@@ -1,0 +1,23 @@
+{
+	"usage": "vectorDot(<vector A>, <vector B>)",
+	"description": [
+		"Returns the dot product of two vectors.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "vector A",
+			"types": ["Vector3"],
+			"description": ["The first vector."]
+		},
+		{
+			"name": "vector B",
+			"types": ["Vector3"],
+			"description": ["The second vector."]
+		}
+	],
+	"return": {
+		"types": ["float"]
+	},
+	"example": ["dot = vectorDot(forward, normal);"]
+}

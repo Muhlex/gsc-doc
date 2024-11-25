@@ -1,0 +1,11 @@
+{
+	"usage": "getMapSunLight()",
+	"description": [
+		"Return the default sun color for a level in an array of size 3. Index 0 is red, index 1 is green, and index 2 is blue.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"return": {
+		"types": ["Array"]
+	},
+	"example": ["level.defaultSunLight = getMapSunLight();"]
+}

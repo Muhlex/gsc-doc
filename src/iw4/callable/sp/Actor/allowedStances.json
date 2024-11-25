@@ -1,0 +1,18 @@
+{
+	"usage": "<actor> allowedStances(<stance> ...);",
+	"description": [
+		"Sets the list of the actor's allowed stances.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "stance",
+			"types": ["string"],
+			"description": [
+				"A stance, can be \"prone\", \"crouch\", \"stand\". Any number of stances may be added."
+			],
+			"optional": false
+		}
+	],
+	"example": ["self allowedStances(\"crouch\", \"prone\");"]
+}

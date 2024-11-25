@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> restoreDefaultDropPitch()",
+	"description": [
+		"Restores the pitch of the turret when it drops to the ground. Recalculates based on current collision environement. Use this if you move a turret and need to reconfigure.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["turret restoreDefaultDropPitch();"]
+}

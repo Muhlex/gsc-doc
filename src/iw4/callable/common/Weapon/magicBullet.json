@@ -1,0 +1,28 @@
+{
+	"usage": "magicBullet(<weapon>, <source>, <destination>)",
+	"description": [
+		"Fire a \"magic bullet\" from the source location towards the destination point.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		},
+		{
+			"name": "source",
+			"types": ["Vector3"],
+			"description": ["The bullet tracer starting point."],
+			"optional": false
+		},
+		{
+			"name": "destination",
+			"types": ["Vector3"],
+			"description": ["The end point."],
+			"optional": false
+		}
+	],
+	"example": ["magicBullet(\"mosin_nagant_sniper\", self.origin, target.origin);"]
+}

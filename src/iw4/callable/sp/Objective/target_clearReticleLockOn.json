@@ -1,0 +1,8 @@
+{
+	"usage": "target_clearReticleLockOn()",
+	"description": [
+		"Cancels any lock-on sequence on the HUD.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["target_clearReticleLockOn();"]
+}

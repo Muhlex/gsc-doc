@@ -1,0 +1,16 @@
+{
+	"usage": "execEx(<command>)",
+	"description": ["Executes a command on the server and returns the response."],
+	"params": [
+		{
+			"name": "command",
+			"types": ["string"],
+			"description": ["Command to execute."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["string"]
+	},
+	"example": ["execEx(\"fast_restart\");"]
+}

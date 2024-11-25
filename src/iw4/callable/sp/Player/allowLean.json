@@ -1,0 +1,16 @@
+{
+	"usage": "<player> allowLean(<allow>)",
+	"description": [
+		"Sets whether the player can lean.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "allow",
+			"types": ["bool"],
+			"description": ["A boolean: true if the player can lean, false otherwise."],
+			"optional": false
+		}
+	],
+	"example": ["level.player allowLean(false);"]
+}

@@ -1,0 +1,19 @@
+{
+	"usage": "isPlayerNumber(<entity number>)",
+	"description": [
+		"Returns true if the passed integer is a valid client number.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "entity number",
+			"types": ["int"],
+			"description": ["Number to check if it is a client number."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["isPlayerNumber(randomClientNumber);"]
+}

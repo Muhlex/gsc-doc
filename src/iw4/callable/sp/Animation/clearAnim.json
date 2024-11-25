@@ -1,0 +1,22 @@
+{
+	"usage": "<entity> clearAnim(<animation>, <time>)",
+	"description": [
+		"Sets an animation's goal weight (and the goal weights of all of its descendents) to zero over the specified time.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "animation",
+			"types": ["animation"],
+			"description": ["The animation or animtree node to clear."],
+			"optional": false
+		},
+		{
+			"name": "time",
+			"types": ["float"],
+			"description": ["The blending time for the clear."],
+			"optional": false
+		}
+	],
+	"example": ["self clearAnim(%root, 0);"]
+}

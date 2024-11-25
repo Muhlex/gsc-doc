@@ -1,0 +1,19 @@
+{
+	"usage": "<player> clonePlayer(<death animation duration>)",
+	"description": [
+		"Clone the player's model for death animations.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "death animation duration",
+			"types": ["float"],
+			"description": ["The duration of the death animation."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["entity"]
+	},
+	"example": ["body = self ClonePlayer(deathAnimDuration);"]
+}

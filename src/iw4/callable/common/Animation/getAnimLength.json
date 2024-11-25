@@ -1,0 +1,21 @@
+{
+	"usage": "getAnimLength(<animation>)",
+	"description": [
+		"Get the length of an animation.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "animation",
+			"types": ["animation"],
+			"description": [
+				"Reference to a primitive animation (calling this function on a non-primitive animation will fail)."
+			],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["float"]
+	},
+	"example": ["cycleTime = getAnimLength(climbAnim);"]
+}

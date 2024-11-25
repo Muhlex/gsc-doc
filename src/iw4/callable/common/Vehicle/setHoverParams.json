@@ -1,0 +1,28 @@
+{
+	"usage": "<entity> setHoverParams(<radius>, <speed>, <accel>)",
+	"description": [
+		"Set the hovering parameters.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "radius",
+			"types": ["float"],
+			"description": ["The hovering range."],
+			"optional": false
+		},
+		{
+			"name": "speed",
+			"types": ["float"],
+			"description": ["Speed to hover at (MPH)."],
+			"optional": true
+		},
+		{
+			"name": "accel",
+			"types": ["float"],
+			"description": ["Acceleration to hover at (MPH/s)."],
+			"optional": true
+		}
+	],
+	"example": ["self setHoverParams(50, 1, 0.5);"]
+}

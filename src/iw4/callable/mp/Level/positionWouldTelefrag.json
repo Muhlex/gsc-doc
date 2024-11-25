@@ -1,0 +1,19 @@
+{
+	"usage": "positionWouldTelefrag(<position>)",
+	"description": [
+		"Returns true if the passed in origin would telefrag a player if another played was spawned there.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "position",
+			"types": ["Vector3"],
+			"description": ["The position of the potential spawn point."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["if (positionWouldTelefrag(spawnpoints[i].origin)) {\n  // Code\n}"]
+}

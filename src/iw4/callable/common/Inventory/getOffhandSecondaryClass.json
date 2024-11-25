@@ -1,0 +1,11 @@
+{
+	"usage": "<player> getOffhandSecondaryClass()",
+	"description": [
+		"Gets the name (either \"smoke\" or \"flash\") that toggle is set to.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"return": {
+		"types": ["string"]
+	},
+	"example": ["if (\"flash\" == level.player getOffhandSecondaryClass()) {\n  // Code\n}"]
+}

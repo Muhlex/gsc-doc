@@ -1,0 +1,16 @@
+{
+	"usage": "<actor> animCustom(<animscript>)",
+	"description": [
+		"Sets the anim script for this actor.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "animscript",
+			"types": ["pointer"],
+			"description": ["The script name to run."],
+			"optional": false
+		}
+	],
+	"example": ["self animCustom(animscripts\\scripted\\stalingrad_cover_crouch::main);"]
+}

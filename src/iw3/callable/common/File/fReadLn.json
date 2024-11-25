@@ -1,0 +1,18 @@
+{
+	"usage": "fReadLn(<file>)",
+	"description": [
+		"Read the next line of comma separated value text from a script-controlled file. Returns the number of comma separated values in the line."
+	],
+	"params": [
+		{
+			"name": "file",
+			"types": ["int"],
+			"description": ["File handle returned by openFile."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["int"]
+	},
+	"example": ["fReadLn(file);"]
+}

@@ -1,0 +1,16 @@
+{
+	"usage": "<entity> useBy(<using entity>)",
+	"description": [
+		"Uses the entity with the passed in entity as the activator.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "using entity",
+			"types": ["Entity"],
+			"description": ["The entity that is using the other entity."],
+			"optional": false
+		}
+	],
+	"example": ["level.armoredCar.turrent useBy(level.player);"]
+}

@@ -1,0 +1,24 @@
+{
+	"usage": "<actor> findBestCoverNode(<nodemeaning>, <node>)",
+	"description": [
+		"Find the best cover node for a given NPC given his state.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "nodemeaning",
+			"types": ["string"],
+			"description": [
+				"Whether to ignore or prefer the next parameter. \"ignore\" or \"prefer\" are valid values."
+			],
+			"optional": true
+		},
+		{
+			"name": "node",
+			"types": ["entity"],
+			"description": ["A node to consider based on previous parameter."],
+			"optional": true
+		}
+	],
+	"example": ["self findBestCoverNode(\"prefer\", here);"]
+}

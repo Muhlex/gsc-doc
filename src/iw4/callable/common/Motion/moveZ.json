@@ -1,0 +1,34 @@
+{
+	"usage": "<entity> moveZ(<units>, <time>, <acceleration time>, <deceleration time>)",
+	"description": [
+		"Move this entity to a position on the Z-axis relative to its current position.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "units",
+			"types": ["float"],
+			"description": ["The amount of units to move the entity by."],
+			"optional": false
+		},
+		{
+			"name": "time",
+			"types": ["float"],
+			"description": ["The time to move the entity in seconds."],
+			"optional": false
+		},
+		{
+			"name": "acceleration time",
+			"types": ["float"],
+			"description": ["The time spent accelerating."],
+			"optional": true
+		},
+		{
+			"name": "deceleration time",
+			"types": ["float"],
+			"description": ["The time spent decelerating."],
+			"optional": true
+		}
+	],
+	"example": ["gate moveZ(320, 5, .5, .5);"]
+}

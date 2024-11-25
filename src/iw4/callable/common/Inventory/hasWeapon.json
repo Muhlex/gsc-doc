@@ -1,0 +1,19 @@
+{
+	"usage": "<player> hasWeapon(<perk>)",
+	"description": [
+		"Test if player has the given weapon.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "perk",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["if (player hasWeapon(\"panzerfaust\")) {\n  // Code\n}"]
+}

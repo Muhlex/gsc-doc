@@ -1,0 +1,64 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$ref": "#/definitions/callable",
+	"definitions": {
+		"callable": {
+			"type": "object",
+			"properties": {
+				"description": {
+					"type": "array",
+					"items": { "type": "string" }
+				},
+				"receiver": {
+					"$ref": "#/definitions/variable",
+					"additionalProperties": false
+				},
+				"params": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"name": {},
+							"types": {},
+							"description": {},
+							"optional": { "type": "boolean" }
+						},
+						"allOf": [{ "$ref": "#/definitions/variable" }],
+						"required": ["name"],
+						"additionalProperties": false
+					}
+				},
+				"paramsRepeatable": {
+					"type": "string",
+					"enum": ["last", "all"]
+				},
+				"return": {
+					"$ref": "#/definitions/variable",
+					"additionalProperties": false
+				},
+				"example": {
+					"type": "array",
+					"items": { "type": "string" }
+				},
+				"deprecated": { "type": "boolean" },
+				"devOnly": { "type": "boolean" },
+				"priority": { "type": "number" }
+			},
+			"additionalProperties": false
+		},
+		"variable": {
+			"type": "object",
+			"properties": {
+				"name": { "type": "string" },
+				"types": {
+					"type": "array",
+					"items": { "type": "string" }
+				},
+				"description": {
+					"type": "array",
+					"items": { "type": "string" }
+				}
+			}
+		}
+	}
+}

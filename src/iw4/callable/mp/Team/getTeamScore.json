@@ -1,0 +1,19 @@
+{
+	"usage": "getTeamScore(<team>)",
+	"description": [
+		"Get a team's score.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "team",
+			"types": ["string"],
+			"description": ["The team, either \"axis\" or \"allies\"."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["int"]
+	},
+	"example": ["if (getTeamScore(\"allies\") > getTeamScore(\"axis\")) {\n  // Code\n}"]
+}

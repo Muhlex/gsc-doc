@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> isFiringTurret()",
+	"description": [
+		"Checks whether this turret is firing. The entity must be a turret.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["if (mg42 isFiringTurret()) {\n  // Code\n}"]
+}

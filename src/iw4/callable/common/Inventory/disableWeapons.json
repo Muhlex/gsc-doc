@@ -1,0 +1,6 @@
+{
+	"description": ["Disable and stow a player's weapons."],
+	"receiver": {
+		"types": ["player"]
+	}
+}

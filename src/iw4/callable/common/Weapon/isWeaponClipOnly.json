@@ -1,0 +1,19 @@
+{
+	"usage": "isWeaponClipOnly(<weapon>)",
+	"description": [
+		"Returns true if the weapon is clip only.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["if (isWeaponClipOnly(\"c4\")) {\n  // Code\n}"]
+}

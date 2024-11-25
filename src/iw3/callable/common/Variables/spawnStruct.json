@@ -1,0 +1,8 @@
+{
+	"usage": "spawnStruct()",
+	"description": ["Allocates a data structure."],
+	"return": {
+		"types": ["Struct"]
+	},
+	"example": ["struct = spawnStruct();"]
+}

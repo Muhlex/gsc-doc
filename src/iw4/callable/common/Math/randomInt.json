@@ -1,0 +1,19 @@
+{
+	"usage": "randomInt(<max>)",
+	"description": [
+		"Returns a random integer between 0 and max-1 inclusive.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "max",
+			"types": ["int"],
+			"description": ["The maximum integer size."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["int"]
+	},
+	"example": ["if (randomInt(100) > 50) {\n  // Code\n}"]
+}

@@ -1,0 +1,19 @@
+{
+	"usage": "weaponMaxDist(<weapon>)",
+	"description": [
+		"Returns the maximum distance for this weapon.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["float"]
+	},
+	"example": ["maxDist = weaponMaxDist(\"m16_grenadier\");"]
+}

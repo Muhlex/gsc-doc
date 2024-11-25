@@ -1,0 +1,18 @@
+{
+	"usage": "setPhysicsGravityDir(<direction>)",
+	"description": [
+		"Sets the direction of gravity for physics.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "direction",
+			"types": ["Vector3"],
+			"description": [
+				"The direction that gravity will pull (i.e., \"down\"). Set to (0,0,-1) for normal gravity behavior."
+			],
+			"optional": false
+		}
+	],
+	"example": ["setPhysicsGravityDir((0, 0, 1));"]
+}

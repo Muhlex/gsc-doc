@@ -1,0 +1,16 @@
+{
+	"usage": "<actor> fireGrenadeLauncher(<barrel tag>)",
+	"description": [
+		"Use the grenadelauncher. checkGrenadeLaunchPos() or checkGrenadeLaunch() must be called first.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "barrel tag",
+			"types": ["string"],
+			"description": ["Barrel tag to fire from."],
+			"optional": false
+		}
+	],
+	"example": ["self fireGrenadeLauncher(tag);"]
+}

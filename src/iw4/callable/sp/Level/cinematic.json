@@ -1,0 +1,22 @@
+{
+	"usage": "cinematic(<cinematic name>, <exitTime>)",
+	"description": [
+		"Play the given cinematic.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "cinematic name",
+			"types": ["string"],
+			"description": ["The cinematic name."],
+			"optional": false
+		},
+		{
+			"name": "exitTime",
+			"types": ["float"],
+			"description": ["Time in seconds of the exit fade."],
+			"optional": true
+		}
+	],
+	"example": ["cinematic(\"cod_end\");"]
+}

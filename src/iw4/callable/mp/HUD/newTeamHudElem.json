@@ -1,0 +1,21 @@
+{
+	"usage": "newTeamHudElem(<team>)",
+	"description": [
+		"Create a new HUD element for a particular team.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "team",
+			"types": ["string"],
+			"description": [
+				"The team for whom the HUD element is created. Must be \"axis\", \"allies\" or \"spectator\"."
+			],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["Struct"]
+	},
+	"example": ["level.progressbarAlliesNeutralize = newTeamHudElem(\"axis\");"]
+}

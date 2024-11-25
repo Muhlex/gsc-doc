@@ -1,0 +1,16 @@
+{
+	"usage": "commitSave(<save ID>)",
+	"description": [
+		"Commits the current save in the save buffer.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "save ID",
+			"types": ["int"],
+			"description": ["The ID of the save to commit."],
+			"optional": false
+		}
+	],
+	"example": ["commitSave(id);"]
+}

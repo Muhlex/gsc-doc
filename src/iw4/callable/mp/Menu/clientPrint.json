@@ -1,0 +1,22 @@
+{
+	"usage": "clientPrint(<client>, <string>)",
+	"description": [
+		"Print a localized version of this string for a given client.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "client",
+			"types": ["entity"],
+			"description": ["A client entity."],
+			"optional": false
+		},
+		{
+			"name": "string",
+			"types": ["string"],
+			"description": ["A message to print."],
+			"optional": false
+		}
+	],
+	"example": ["This function has no official examples."]
+}

@@ -1,0 +1,16 @@
+{
+	"usage": "isWeaponDetonationTimed(<weapon>)",
+	"description": ["Returns true if the weapon has timed detonation (e.g. frag/smoke grenades)."],
+	"params": [
+		{
+			"name": "weapon",
+			"types": ["string"],
+			"description": ["The weapon name."],
+			"optional": false
+		}
+	],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["if (isWeaponDetonationTimed(\"c4\")) {\n  // Code\n}"]
+}

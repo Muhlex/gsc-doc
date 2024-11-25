@@ -1,0 +1,5 @@
+{
+	"usage": "<hud> destroy()",
+	"description": ["Remove this HUD element altogether."],
+	"example": ["self.bombStopwatch destroy();"]
+}

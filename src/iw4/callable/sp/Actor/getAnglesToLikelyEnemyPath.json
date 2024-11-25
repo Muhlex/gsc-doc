@@ -1,0 +1,8 @@
+{
+	"usage": "<actor> getAnglesToLikelyEnemyPath()",
+	"description": [
+		"Get the angles towards the direction an enemy is most likely to appear. Returns undefined if a good guess can't be made.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"example": ["self getAnglesToLikelyEnemyPath();"]
+}

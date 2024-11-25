@@ -1,0 +1,16 @@
+{
+	"usage": "<entity> setWaitSpeed(<speed>)",
+	"description": [
+		"Sets the wait speed for this vehicle in miles per hour.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "speed",
+			"types": ["float"],
+			"description": ["The wait speed for the vehicle."],
+			"optional": false
+		}
+	],
+	"example": ["self setWaitSpeed(5);"]
+}

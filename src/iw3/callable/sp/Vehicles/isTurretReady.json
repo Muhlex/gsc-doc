@@ -1,0 +1,8 @@
+{
+	"usage": "<entity> isTurretReady()",
+	"description": ["Query whether this vehicle's turret is ready for firing."],
+	"return": {
+		"types": ["bool"]
+	},
+	"example": ["while (!level.playerTank isTurretReady()) {\n  wait .05;\n}"]
+}

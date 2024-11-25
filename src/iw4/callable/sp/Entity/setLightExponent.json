@@ -1,0 +1,16 @@
+{
+	"usage": "<entity> setLightExponent(<exponent>)",
+	"description": [
+		"Sets the current exponent of the light.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "exponent",
+			"types": ["int"],
+			"description": ["A new value for the exponent of the light in the of 0 to 100."],
+			"optional": false
+		}
+	],
+	"example": ["self setLightExponent(1);"]
+}

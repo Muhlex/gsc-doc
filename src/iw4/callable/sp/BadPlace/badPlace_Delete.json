@@ -1,0 +1,16 @@
+{
+	"usage": "badPlace_Delete(<bad place identifier>)",
+	"description": [
+		"Deletes a bad place. It is okay to delete a bad place name that doesn't exist. It is not okay to delete the special name \"\".",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "bad place identifier",
+			"types": ["string"],
+			"description": ["The bad place to delete."],
+			"optional": false
+		}
+	],
+	"example": ["badPlace_Delete(\"bpFlak1\");"]
+}

@@ -1,0 +1,13 @@
+{
+	"usage": "<player> allowLeanRight(<allow>)",
+	"description": ["Sets whether the player can lean right."],
+	"params": [
+		{
+			"name": "allow",
+			"types": ["bool"],
+			"description": ["A boolean: true if the player can lean right, false otherwise."],
+			"optional": false
+		}
+	],
+	"example": ["level.player allowLeanRight(false);"]
+}

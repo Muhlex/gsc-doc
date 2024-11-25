@@ -1,0 +1,13 @@
+{
+	"usage": "preCacheMenu(<name>)",
+	"description": ["Precaches a menu."],
+	"params": [
+		{
+			"name": "name",
+			"types": ["string"],
+			"description": ["Name of the menu to precache."],
+			"optional": false
+		}
+	],
+	"example": ["preCacheMenu(game[\"menu_serverinfo\"]);"]
+}

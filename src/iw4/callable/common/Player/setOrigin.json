@@ -1,0 +1,16 @@
+{
+	"usage": "<player> setOrigin(<origin>)",
+	"description": [
+		"Set the player's origin.",
+		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
+	],
+	"params": [
+		{
+			"name": "origin",
+			"types": ["Vector3"],
+			"description": ["New player origin."],
+			"optional": false
+		}
+	],
+	"example": ["level.player setOrigin(plTruck.origin);"]
+}
