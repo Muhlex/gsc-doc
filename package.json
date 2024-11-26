@@ -7,6 +7,7 @@
 	"scripts": {
 		"build": "tsx .",
 		"check": "biome check",
+		"fix": "biome check --write",
 		"format": "biome format --write"
 	},
 	"author": {

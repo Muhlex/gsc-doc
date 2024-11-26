@@ -1,7 +1,7 @@
 import type { PathLike } from "node:fs";
-import { readdir, readFile, mkdir, rm, writeFile } from "node:fs/promises";
-import { fileURLToPath } from "node:url";
+import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
 export async function readDirDirectories(path: PathLike) {
 	const dirents = await readdir(path, { withFileTypes: true });
@@ -44,7 +44,7 @@ export async function writeJSON(path: PathLike, data: unknown) {
 	return await writeFile(path, text);
 }
 
-function pathLikeToString(pathLike: PathLike): string {
+export function pathLikeToString(pathLike: PathLike): string {
 	if (typeof pathLike === "string") return pathLike;
 	if (Buffer.isBuffer(pathLike)) return pathLike.toString();
 	if (pathLike instanceof URL) return fileURLToPath(pathLike);
