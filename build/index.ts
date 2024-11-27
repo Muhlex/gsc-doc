@@ -8,6 +8,7 @@ import {
 	removeDir,
 	writeJSON,
 } from "./io";
+import { version } from "../package.json";
 
 const parseKeywords = (path: string | URL) => readJSON(path);
 
@@ -51,6 +52,7 @@ const parseCallables = async (path: string | URL) => {
 
 const createIndex = (engines: string[]) => {
 	return {
+		version,
 		engines: Object.fromEntries(
 			engines.map((engine) => {
 				const enginePath = new URL(`./${engine}/`, args.base);
