@@ -1,12 +1,20 @@
 {
 	"json.schemas": [
 		{
-			"url": "./schemas/callable.json",
-			"fileMatch": ["/src/*/callable/**/*.json"]
+			"url": "./schemas/meta/engine.json",
+			"fileMatch": ["/src/*/meta.json"]
+		},
+		{
+			"url": "./schemas/meta/featureset.json",
+			"fileMatch": ["/src/*/callable/*/meta.json"]
 		},
 		{
 			"url": "./schemas/keyword.json",
 			"fileMatch": ["/src/*/keyword.json"]
+		},
+		{
+			"url": "./schemas/callable.json",
+			"fileMatch": ["/src/*/callable/*/*/*.json"]
 		}
 	],
 	"editor.defaultFormatter": "biomejs.biome"

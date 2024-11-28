@@ -1,10 +1,10 @@
 {
+	"priority": 1,
 	"description": ["Get the eye position of a player or actor (the first person camera position)."],
 	"receiver": {
 		"types": ["player", "actor"]
 	},
 	"return": {
 		"types": ["vector"]
-	},
-	"priority": 1
+	}
 }

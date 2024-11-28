@@ -15,55 +15,61 @@ const parseKeywords = (path: string | URL) => readJSON(path);
 const parseCallables = async (path: string | URL) => {
 	let size = 0;
 
-	const parseFiles = async (path: string | URL) => {
+	const mapDirectories = async (
+		path: string | URL,
+		transformChild: (path: URL) => unknown | Promise<unknown>,
+	) => {
+		const dirs = await readDirDirectories(path);
+		return Object.fromEntries(
+			await Promise.all(
+				dirs.map(async (dir) => [dir, await transformChild(new URL(`./${dir}/`, path))]),
+			),
+		);
+	};
+
+	const mapFiles = async (
+		path: string | URL,
+		transformChild: (path: URL) => unknown | Promise<unknown>,
+	) => {
 		const files = await readDirFiles(path);
 		size += files.length;
 		return Object.fromEntries(
 			await Promise.all(
-				files.map(async (file) => {
-					const filePath = new URL(`./${file}`, path);
-					return [basename(file, extname(file)), await readJSON(filePath)] as const;
-				}),
+				files.map(async (file) => [
+					basename(file, extname(file)),
+					await transformChild(new URL(`./${file}`, path)),
+				]),
 			),
 		);
 	};
 
-	const parseDirectoriesRecursive = async (path: string | URL, keys: string[], depth = 0) => {
-		if (depth === keys.length) return parseFiles(path);
+	const featuresets = await mapDirectories(path, async (featuresetPath) => ({
+		meta: await readJSON(new URL("./meta.json", featuresetPath)),
+		modules: await mapDirectories(featuresetPath, async (modulePath) => ({
+			callables: await mapFiles(modulePath, readJSON),
+		})),
+	}));
 
-		const dirs = await readDirDirectories(path);
-		return Object.fromEntries(
-			await Promise.all(
-				dirs.map(async (dir) => {
-					const dirPat = new URL(`./${dir}/`, path);
-					return [dir, { [keys[depth]]: await parseDirectoriesRecursive(dirPat, keys, depth + 1) }];
-				}),
-			),
-		);
-	};
-
-	return {
-		callables: {
-			featuresets: await parseDirectoriesRecursive(path, ["modules", "callables"]),
-		},
-		size,
-	};
+	return { size, featuresets };
 };
 
-const createIndex = (engines: string[]) => {
+const createIndex = async (engines: string[]) => {
 	return {
 		version,
 		engines: Object.fromEntries(
-			engines.map((engine) => {
-				const enginePath = new URL(`./${engine}/`, args.base);
-				return [
-					engine,
-					{
-						keyword: new URL("./keyword.json", enginePath).href,
-						callable: new URL("./callable.json", enginePath).href,
-					},
-				];
-			}),
+			await Promise.all(
+				engines.map(async (engine) => {
+					const engineBasePath = new URL(`./${engine}/`, args.base);
+					return [
+						engine,
+						{
+							meta: await readJSON(new URL(`./${engine}/meta.json`, srcPath)),
+							keyword: new URL("./keyword.json", engineBasePath).href,
+							callable: new URL("./callable.json", engineBasePath).href,
+						},
+					];
+				}),
+			),
 		),
 	};
 };
@@ -82,7 +88,7 @@ const args = parseArgs({
 }).values;
 
 const removedOut = await removeDir(outPath);
-if (removedOut) console.log("Removed existing out directory.");
+if (removedOut) console.log("Removed existing out directory.\n");
 
 const engines = await readDirDirectories(srcPath);
 
@@ -99,8 +105,8 @@ await Promise.all(
 		};
 
 		const transformCallables = async () => {
-			const { callables, size } = await parseCallables(new URL(`./${engine}/callable/`, srcPath));
-			log("Transformed", size, "callables.");
+			const callables = await parseCallables(new URL(`./${engine}/callable/`, srcPath));
+			log("Transformed", callables.size, "callables.");
 			const callablesOutPath = new URL(`./${engine}/callable.json`, outPath);
 			await writeJSON(callablesOutPath, callables);
 			log(`Wrote callables to '${pathLikeToString(callablesOutPath)}'.`);
@@ -111,7 +117,7 @@ await Promise.all(
 );
 
 const indexOutPath = new URL("./index.json", outPath);
-await writeJSON(indexOutPath, createIndex(engines));
+await writeJSON(indexOutPath, await createIndex(engines));
 console.log(`Wrote index to '${pathLikeToString(new URL("./index.json", outPath))}'.`);
 
-console.log("Build successful.");
+console.log("\nBuild successful.");

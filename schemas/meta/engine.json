@@ -1,0 +1,15 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$ref": "#/definitions/meta",
+	"definitions": {
+		"meta": {
+			"type": "object",
+			"properties": {
+				"displayName": { "type": "string" },
+				"gameTitle": { "type": "string" }
+			},
+			"required": ["displayName", "gameTitle"],
+			"additionalProperties": false
+		}
+	}
+}
