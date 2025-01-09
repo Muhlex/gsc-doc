@@ -1,5 +1,7 @@
 import { basename, extname } from "node:path";
 import { parseArgs } from "node:util";
+
+import { version } from "../package.json";
 import {
 	pathLikeToString,
 	readDirDirectories,
@@ -8,7 +10,6 @@ import {
 	removeDir,
 	writeJSON,
 } from "./io";
-import { version } from "../package.json";
 
 const parseKeywords = (path: string | URL) => readJSON(path);
 
@@ -75,7 +76,7 @@ const createIndex = async (engines: string[]) => {
 };
 
 const srcPath = new URL("../src/", import.meta.url);
-const outPath = new URL("../out/", import.meta.url);
+const outPath = new URL("../dist/", import.meta.url);
 
 const args = parseArgs({
 	options: {

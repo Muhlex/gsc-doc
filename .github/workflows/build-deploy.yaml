@@ -42,7 +42,7 @@ jobs:
       - name: Upload built files as artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: out/
+          path: dist/
 
   deploy:
     runs-on: ubuntu-latest
