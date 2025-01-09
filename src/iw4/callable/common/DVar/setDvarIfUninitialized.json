@@ -1,6 +1,6 @@
 {
 	"description": [
-		"Set the value of a DVar only if it doesn't exist or it's value is the emprty string."
+		"Set the value of a DVar only if it doesn't exist or if it's value is the empty string."
 	],
 	"params": [
 		{
