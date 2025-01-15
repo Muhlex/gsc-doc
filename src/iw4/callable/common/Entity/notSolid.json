@@ -1,8 +1,0 @@
-{
-	"usage": "<entity> notSolid()",
-	"description": [
-		"Unsets the solid flag, so that this object is no longer collidable.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["self notSolid();"]
-}

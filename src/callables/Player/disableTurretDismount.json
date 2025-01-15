@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<player> disableTurretDismount()",
+		"description": ["Do not let player unstick themselves form a trugger that they are using."],
+		"example": ["level.player disableTurretDismount();"]
+	}
+]

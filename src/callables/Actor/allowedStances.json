@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<actor> allowedStances(<stance> ...);",
+		"description": ["Sets the list of the actor's allowed stances."],
+		"params": [
+			{
+				"name": "stance",
+				"types": ["string"],
+				"description": [
+					"A stance, can be \"prone\", \"crouch\", \"stand\". Any number of stances may be added."
+				],
+				"optional": false
+			}
+		],
+		"example": ["self allowedStances(\"crouch\", \"prone\");"]
+	}
+]

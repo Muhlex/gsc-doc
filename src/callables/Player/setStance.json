@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "<player> setStance(<stance>)",
+		"description": [
+			"Sets the stance of the player. Possible values are \"crouch\", \"prone\" and \"stand\"."
+		],
+		"params": [
+			{
+				"name": "stance",
+				"types": ["string"],
+				"description": ["Stance to set (\"crouch\", \"prone\", \"stand\")."],
+				"optional": false
+			}
+		],
+		"example": ["level.player setStance(\"stand\");"]
+	}
+]

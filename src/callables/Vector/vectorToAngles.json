@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "vectorToAngles(<vector>)",
+		"description": ["Returns a set of angles corresponding to the given vector."],
+		"params": [
+			{
+				"name": "vector",
+				"types": ["Vector3"],
+				"description": ["The vector to convert to angles."]
+			}
+		],
+		"return": { "types": ["Vector3"] },
+		"example": ["angles = vectorToAngles(end - start);"]
+	}
+]

@@ -1,8 +1,0 @@
-{
-	"usage": "<entity> disableAimAssist()",
-	"description": [
-		"Disables aim assist on an entity. The entity must have a brush model.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["self disableAimAssist();"]
-}

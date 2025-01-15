@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "anglesToRight(<angles>)",
+		"description": ["Returns the right vector corresponding to a set of angles."],
+		"params": [{ "name": "angles", "types": ["Vector3"], "description": ["A set of angles."] }],
+		"return": { "types": ["Vector3"] },
+		"example": ["right = anglesToRight(angles);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the right vector for a set of angles."],
+		"params": [{ "name": "angles", "types": ["vector"] }],
+		"return": { "types": ["vector"], "description": ["Right vector."] }
+	}
+]

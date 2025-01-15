@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> useAnimTree(<anim tree>)",
+		"description": ["Set the animation tree of an entity."],
+		"params": [
+			{
+				"name": "anim tree",
+				"types": ["animtree"],
+				"description": ["The new anim tree."],
+				"optional": false
+			}
+		],
+		"example": ["self useAnimTree(#animtree);"]
+	}
+]

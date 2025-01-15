@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "getTeamPlayersAlive(<team>)",
+		"description": ["Returns the number of players still alive on a given team."],
+		"params": [
+			{
+				"name": "team",
+				"types": ["string"],
+				"description": ["The team, either \"axis\" or \"allies\"."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["alive = getTeamPlayersAlive(\"allies\");"]
+	}
+]

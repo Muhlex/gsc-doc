@@ -1,8 +1,0 @@
-{
-	"usage": "resetTimeout()",
-	"description": [
-		"Resets the infinite loop check timer, to prevent an incorrect infinite loop error when a lot of script must be run.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["resetTimeout();"]
-}

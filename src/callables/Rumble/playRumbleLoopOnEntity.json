@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> playRumbleLoopOnEntity(<rumble>)",
+		"description": ["Plays a looping rumble on the given entity."],
+		"params": [
+			{
+				"name": "rumble",
+				"types": ["string"],
+				"description": ["The name of the rumble to play."],
+				"optional": false
+			}
+		],
+		"example": ["self playRumbleLoopOnEntity(\"tank_rumble\");"]
+	}
+]

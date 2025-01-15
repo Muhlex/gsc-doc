@@ -1,8 +1,0 @@
-{
-	"usage": "<entity> clearGoalYaw()",
-	"description": [
-		"Clear the goal yaw direction for this vehicle.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["level.fak1 clearGoalYaw();"]
-}

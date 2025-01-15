@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> playRumbleOnEntity(<rumble>)",
+		"description": ["Plays a rumble on the given entity."],
+		"params": [
+			{
+				"name": "rumble",
+				"types": ["string"],
+				"description": ["The name of the rumble to play."],
+				"optional": false
+			}
+		],
+		"example": ["self playRumbleOnEntity(\"damage_heavy\");"]
+	}
+]

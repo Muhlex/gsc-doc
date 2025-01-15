@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<player> getWeaponSlotWeapon(<weapon slot>)",
+		"description": ["Gets the name of the weapon in the given weapon slot."],
+		"params": [
+			{
+				"name": "weapon slot",
+				"types": ["string"],
+				"description": ["Valid weaponslots are \"primary\" and \"primaryb\"."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["string"] },
+		"example": ["playerWeapon[0] = level.player getWeaponSlotWeapon(\"primary\");"]
+	}
+]

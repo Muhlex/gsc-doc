@@ -1,0 +1,30 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$ref": "#/definitions/engine",
+	"definitions": {
+		"engine": {
+			"type": "object",
+			"properties": {
+				"id": { "$ref": "./scope.json/#/definitions/scope-engine" },
+				"displayName": { "type": "string" },
+				"gameTitle": { "type": "string" },
+				"featuresets": {
+					"type": "array",
+					"items": { "$ref": "#/definitions/featureset" }
+				}
+			},
+			"required": ["id", "displayName", "gameTitle", "featuresets"],
+			"additionalProperties": false
+		},
+		"featureset": {
+			"type": "object",
+			"properties": {
+				"id": { "type": "string" },
+				"displayName": { "type": "string" },
+				"description": { "type": "string" }
+			},
+			"required": ["id", "displayName", "description"],
+			"additionalProperties": false
+		}
+	}
+}

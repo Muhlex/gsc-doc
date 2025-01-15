@@ -1,0 +1,23 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "aSin(<sin value>)",
+		"description": ["Returns an angle corresponding to a particular sine value."],
+		"params": [
+			{
+				"name": "sin value",
+				"types": ["float"],
+				"description": ["A sine value."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["upAngle = aSin(upAmount);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the arc/inverse sine of a number."],
+		"params": [{ "name": "sine", "types": ["float"], "description": ["An angle's sine value."] }],
+		"return": { "types": ["float"], "description": ["Arc sine in degrees."] }
+	}
+]

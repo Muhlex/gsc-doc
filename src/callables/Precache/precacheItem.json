@@ -1,0 +1,23 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "precacheHeadIcon(<name>)",
+		"description": [
+			"Precaches the given item. It must be called before any wait statements in the level script."
+		],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the item to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheItem(\"m40a3_mp\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given item. Must be called before it can be used."],
+		"params": [{ "name": "item", "types": ["string"], "description": ["Item name."] }]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|unleashed"],
+		"usage": "toTitle(<string>)",
+		"description": ["Convert a string to Title Case."],
+		"params": [
+			{
+				"name": "string",
+				"types": ["string"],
+				"description": ["String to convert."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["string"] },
+		"example": ["str = toTitle(\"hello world\");"]
+	}
+]

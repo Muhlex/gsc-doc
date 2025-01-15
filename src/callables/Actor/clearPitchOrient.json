@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<actor> clearPitchOrient()",
+		"description": ["Clear pitch orientation."],
+		"example": ["self clearPitchOrient()"]
+	}
+]

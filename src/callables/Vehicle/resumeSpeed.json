@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> resumeSpeed(<acceleration>)",
+		"description": ["Sets the vehicle to resume its path speed."],
+		"params": [
+			{
+				"name": "acceleration",
+				"types": ["float"],
+				"description": ["The acceleration to apply to this vehicle in miles per hour per second."],
+				"optional": false
+			}
+		],
+		"example": ["level.tank resumeSpeed(3);"]
+	}
+]

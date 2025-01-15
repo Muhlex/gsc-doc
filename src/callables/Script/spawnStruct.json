@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "spawnStruct()",
+		"description": ["Allocates a data structure."],
+		"return": { "types": ["Struct"] },
+		"example": ["struct = spawnStruct();"]
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "getAllVehicleNodes()",
+		"description": ["Gets all of the vehicle nodes in a level."],
+		"return": { "types": ["Array"] },
+		"example": ["nodes = getAllVehicleNodes();"]
+	}
+]

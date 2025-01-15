@@ -1,20 +1,16 @@
 {
 	"json.schemas": [
 		{
-			"url": "./schemas/meta/engine.json",
-			"fileMatch": ["/src/*/meta.json"]
-		},
-		{
-			"url": "./schemas/meta/featureset.json",
-			"fileMatch": ["/src/*/callable/*/meta.json"]
+			"url": "./schemas/engine.json",
+			"fileMatch": ["/src/engines/*.json"]
 		},
 		{
 			"url": "./schemas/keyword.json",
-			"fileMatch": ["/src/*/keyword.json"]
+			"fileMatch": ["/src/docs/keywords/*.json"]
 		},
 		{
 			"url": "./schemas/callable.json",
-			"fileMatch": ["/src/*/callable/*/*/*.json"]
+			"fileMatch": ["/src/docs/callables/**/*.json"]
 		}
 	],
 	"editor.defaultFormatter": "biomejs.biome"

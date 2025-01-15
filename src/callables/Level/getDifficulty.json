@@ -1,0 +1,11 @@
+[
+	{
+		"scopes": ["iw3|sp"],
+		"usage": "getDifficulty()",
+		"description": [
+			"Gets the game difficulty - can return values of \"easy\", \"medium\", \"difficult\" and \"fu\"."
+		],
+		"return": { "types": ["string"] },
+		"example": ["skill = getDifficulty();"]
+	}
+]

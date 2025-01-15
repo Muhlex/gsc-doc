@@ -1,0 +1,14 @@
+[
+	{
+		"scopes": ["iw3|mp"],
+		"usage": "addTestClient()",
+		"description": ["Adds a test client to the map and returns a reference to that client."],
+		"return": { "types": ["entity"] },
+		"example": ["ent[i] = addTestClient();"]
+	},
+	{
+		"scopes": ["iw4|mp"],
+		"description": ["Connects a test client (bot) to the server."],
+		"return": { "types": ["player"], "description": ["The test client entity."] }
+	}
+]

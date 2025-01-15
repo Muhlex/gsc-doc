@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp"],
+		"usage": "<entity> removeVehicleFromCompass()",
+		"description": ["Removes this vehicle from the compass."],
+		"example": ["helicopter removeVehicleFromCompass();"]
+	}
+]

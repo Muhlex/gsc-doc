@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "<entity> getTurretOwner()",
+		"description": ["Gets the owner of this turret."],
+		"example": ["mg42User = roofMg42 getTurretOwner();"]
+	}
+]

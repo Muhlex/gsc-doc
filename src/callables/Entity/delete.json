@@ -1,0 +1,13 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<entity> delete()",
+		"description": ["Removes an entity from the game."],
+		"example": ["thing delete();"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Delete an entity from the world."],
+		"receiver": { "types": ["entity"] }
+	}
+]

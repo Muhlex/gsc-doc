@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> giveMaxAmmo(<weapon>)",
+		"description": ["Set the player's ammunition to the weapon's maximum ammunition."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"example": ["self giveMaxAmmo(self.pers[\"weapon\"]);"]
+	}
+]

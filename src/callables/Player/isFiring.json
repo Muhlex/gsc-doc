@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<player> isFiring()",
+		"description": ["Returns true if the player is currently using a weapon."],
+		"return": { "types": ["bool"] },
+		"example": ["if (level.player isFiring()) {\n  // Code\n}"]
+	}
+]

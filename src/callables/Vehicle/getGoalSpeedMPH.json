@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> getGoalSpeedMPH()",
+		"description": ["Gets the goal speed in miles per hour."],
+		"return": { "types": ["float"] },
+		"example": ["goalSpeed = self getGoalSpeedMPH();"]
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "precacheHeadIcon(<name>)",
+		"description": ["Precache a head icon."],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the material to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheHeadIcon(game[\"headicon_allies\"]);"]
+	}
+]

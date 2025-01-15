@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> stopUseAnimTree()",
+		"description": ["Stop using the current anim tree."],
+		"example": ["self stopUseAnimTree();"]
+	}
+]

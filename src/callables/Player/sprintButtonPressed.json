@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|unleashed"],
+		"usage": "<player> sprintButtonPressed()",
+		"description": ["Checks if a player is pressing the sprint button."],
+		"return": { "types": ["bool"] },
+		"example": ["if (self sprintButtonPressed()) {", "  // Code", "}"]
+	}
+]

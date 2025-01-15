@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "setVoteNoCount(<count>)",
+		"description": ["Sets the number of No votes."],
+		"params": [
+			{
+				"name": "count",
+				"types": ["int"],
+				"description": ["Number of No votes."],
+				"optional": false
+			}
+		],
+		"example": ["setVoteNoCount(0);"]
+	}
+]

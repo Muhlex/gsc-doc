@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|sp-mp"],
+		"usage": "<player> isRagdoll()",
+		"description": ["Returns true if the entity is a ragdoll body, false otherwise."],
+		"return": { "types": ["bool"] },
+		"example": ["self isRagdoll();"]
+	}
+]

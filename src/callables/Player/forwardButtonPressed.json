@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|unleashed"],
+		"usage": "<player> forwardButtonPressed()",
+		"description": ["Checks if a player is pressing the forward button."],
+		"return": { "types": ["bool"] },
+		"example": ["if (self forwardButtonPressed()) {", "  // Code", "}"]
+	}
+]

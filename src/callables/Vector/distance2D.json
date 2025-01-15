@@ -1,0 +1,19 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "distance2D(<point A>, <point B>)",
+		"description": ["Returns the distance between two points, ignores height difference."],
+		"params": [
+			{ "name": "point A", "types": ["Vector3"], "description": ["The first point."] },
+			{ "name": "point B", "types": ["Vector3"], "description": ["The second point."] }
+		],
+		"return": { "types": ["float"] },
+		"example": ["dist = distance2D(org, ai[i].origin);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the distance between two vectors, ignoring the Z axis."],
+		"params": [{ "name": "a", "types": ["vector"] }, { "name": "b", "types": ["vector"] }],
+		"return": { "types": ["float"], "description": ["Vector distance on XY-plane."] }
+	}
+]

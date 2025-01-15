@@ -1,0 +1,32 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<player> setClientDvars(<dvar>, <value>, <dvar>, <value>...)",
+		"description": ["Set the values of a list of dvars which are specific to each client."],
+		"params": [
+			{ "name": "dvar", "types": ["string"], "description": ["The dvar name."], "optional": false },
+			{
+				"name": "value",
+				"types": ["string"],
+				"description": ["The dvar value."],
+				"optional": false
+			}
+		],
+		"example": ["self setClientDvars(\"cg_drawhud\", \"0\", \"cg_draw2d\", \"0\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Set the value of multiple DVars locally for a player."],
+		"params": [
+			{ "name": "dvar", "types": ["string"], "description": ["Name of a DVar."] },
+			{
+				"name": "value",
+				"types": ["string", "int", "float", "vector"],
+				"description": ["Value to set."]
+			}
+		],
+		"paramsRepeatable": "all",
+		"receiver": { "types": ["player"], "description": ["The player on which to set the DVars."] },
+		"example": ["self setClientDvar(\"cg_gun_y\", 3, \"cg_gun_z\", -2)"]
+	}
+]

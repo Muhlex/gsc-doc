@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "setThreatBiasAgainstAll(<group>, <bias>)",
+		"description": ["Set the threatbias a group has against all others."],
+		"params": [
+			{
+				"name": "group",
+				"types": ["string"],
+				"description": ["Threat bias group name."],
+				"optional": false
+			},
+			{ "name": "bias", "types": ["int"], "description": ["Threat bias value."], "optional": false }
+		],
+		"example": ["setThreatBiasAgainstAll(\"flanking_team\", 120);"]
+	}
+]

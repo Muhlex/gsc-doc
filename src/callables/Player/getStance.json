@@ -1,0 +1,11 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> getStance()",
+		"description": [
+			"Gets the stance of the player. It only works for the player. Possible return values are \"crouch\", \"prone\" and \"stand\"."
+		],
+		"return": { "types": ["string"] },
+		"example": ["if (level.player getStance() == \"crouch\") {\n  // Code\n}"]
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "preCacheShader(<name>)",
+		"description": [
+			"Precaches the given shader. It must be called before any wait statements in the level script."
+		],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the material to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheShader(\"artillery_firing\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given shader. Must be called before it can be used."],
+		"params": [{ "name": "shader", "types": ["string"], "description": ["Shader name."] }]
+	}
+]

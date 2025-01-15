@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|unleashed"],
+		"usage": "<player> backwardButtonPressed()",
+		"description": ["Checks if a player is pressing the backward button."],
+		"return": { "types": ["bool"] },
+		"example": ["if (self backwardButtonPressed()) {", "  // Code", "}"]
+	}
+]

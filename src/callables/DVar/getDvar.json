@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "getDvar(<dvar>)",
+		"description": ["Gets the value of a dvar, as a string."],
+		"params": [
+			{ "name": "dvar", "types": ["string"], "description": ["The dvar name."], "optional": false }
+		],
+		"return": { "types": ["string"] },
+		"example": ["if (getDvar(\"debug_skipintro\") == \"on\")"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Retrieve the value of a DVar."],
+		"params": [{ "name": "dvar", "types": ["string"], "description": ["Name of the DVar."] }],
+		"return": { "types": ["string"] }
+	}
+]

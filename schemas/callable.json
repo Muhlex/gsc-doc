@@ -1,10 +1,18 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$ref": "#/definitions/callable",
+	"$ref": "#/definitions/variants",
 	"definitions": {
-		"callable": {
+		"variants": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/variant" }
+		},
+		"variant": {
 			"type": "object",
 			"properties": {
+				"scopes": {
+					"type": "array",
+					"items": { "$ref": "./scope.json/#/definitions/scope-featuresets" }
+				},
 				"description": {
 					"type": "array",
 					"items": { "type": "string" }

@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "weaponIsBoltAction(<weapon>)",
+		"description": ["Get whether this weapon has a bolt action."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["bool"] },
+		"example": ["if (weaponIsBoltAction(\"m14_scoped\")) {\n  // Code\n}"]
+	}
+]

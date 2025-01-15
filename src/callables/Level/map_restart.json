@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "map_restart(<save persistent>)",
+		"description": ["Restarts the map."],
+		"params": [
+			{
+				"name": "save persistent",
+				"types": ["bool"],
+				"description": ["If true, player info is retained."],
+				"optional": true
+			}
+		],
+		"example": ["map_restart(true);"]
+	}
+]

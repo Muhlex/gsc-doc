@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> takeAllWeapons()",
+		"description": ["Remove all weapons from the player."],
+		"example": ["level.player takeAllWeapons();"]
+	}
+]

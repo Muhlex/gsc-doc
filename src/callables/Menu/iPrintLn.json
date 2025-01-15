@@ -1,0 +1,28 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "iPrintLn(<text>)",
+		"description": ["Write line to the screen."],
+		"params": [
+			{
+				"name": "text",
+				"types": ["string"],
+				"description": ["Text to be written."],
+				"optional": false
+			}
+		],
+		"example": ["iPrintLn(\"Where have all the cowboys gone?\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": [
+			"Write a line of text to the bottom left output (shared with e. g. obituaries)."
+		],
+		"params": [{ "name": "text", "types": ["string", "int", "float", "vector", "player"] }],
+		"paramsRepeatable": "last",
+		"receiver": {
+			"types": ["world", "player"],
+			"description": ["If called on a player, only they will see the line."]
+		}
+	}
+]

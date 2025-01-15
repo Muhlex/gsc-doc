@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "<entity> isFiringTurret()",
+		"description": ["Checks whether this turret is firing. The entity must be a turret."],
+		"example": ["if (mg42 isFiringTurret()) {\n  // Code\n}"]
+	}
+]

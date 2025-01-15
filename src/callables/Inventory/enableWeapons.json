@@ -1,0 +1,13 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<player> enableWeapons()",
+		"description": ["Enable the player's weapons."],
+		"example": ["level.player enableWeapons();"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Enable a player's weapons and raise the most recently used one."],
+		"receiver": { "types": ["player"] }
+	}
+]

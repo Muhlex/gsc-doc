@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "isCinematicPlaying()",
+		"description": ["Checks if a cinematic is playing."],
+		"return": { "types": ["bool"] },
+		"example": ["isPlaying = isCinematicPlaying();"]
+	}
+]

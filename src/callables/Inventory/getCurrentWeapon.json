@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> getCurrentWeapon()",
+		"description": ["Gets the player's current weapon."],
+		"return": { "types": ["string"] },
+		"example": ["currentWeapon = level.player getCurrentWeapon();"]
+	}
+]

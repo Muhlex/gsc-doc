@@ -1,0 +1,25 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "aCos(<cos value>)",
+		"description": ["Returns an angle corresponding to a particular cosine value."],
+		"params": [
+			{
+				"name": "cos value",
+				"types": ["float"],
+				"description": ["A cosine value."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["upAngle = aCos(distanceRatio);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the arc/inverse cosine of a number."],
+		"params": [
+			{ "name": "cosine", "types": ["float"], "description": ["An angle's cosine value."] }
+		],
+		"return": { "types": ["float"], "description": ["Arc cosine in degrees."] }
+	}
+]

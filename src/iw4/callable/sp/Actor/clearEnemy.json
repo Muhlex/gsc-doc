@@ -1,8 +1,0 @@
-{
-	"usage": "<actor> clearEnemy()",
-	"description": [
-		"Clear the actor's current enemy entity.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["self clearEnemy()"]
-}

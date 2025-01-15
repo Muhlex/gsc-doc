@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp"],
+		"usage": "<entity> makeVehicleUsable()",
+		"description": ["Sets this vehicle to be usable by the player."],
+		"example": ["nFlak makeVehicleUsable();"]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "weaponMaxDist(<weapon>)",
+		"description": ["Returns the maximum distance for this weapon."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["maxDist = weaponMaxDist(\"m16_grenadier\");"]
+	}
+]

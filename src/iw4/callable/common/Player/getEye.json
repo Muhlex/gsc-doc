@@ -1,9 +1,0 @@
-{
-	"description": ["Get the eye position of a player (the first person camera position)."],
-	"receiver": {
-		"types": ["player"]
-	},
-	"return": {
-		"types": ["vector"]
-	}
-}

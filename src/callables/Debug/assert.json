@@ -1,0 +1,26 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "assert(<value>)",
+		"description": [
+			"Assert that the given statement is correct. The function will throw a script error if this is false."
+		],
+		"params": [
+			{
+				"name": "value",
+				"types": ["bool"],
+				"description": ["Statement that is asserted to be correct."],
+				"optional": false
+			}
+		],
+		"example": ["assert(enemyInSight == true);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Assert that a condition is true. Throw a script error otherwise."],
+		"params": [
+			{ "name": "condition", "types": ["bool"], "description": ["The condition to assert."] }
+		],
+		"devOnly": true
+	}
+]

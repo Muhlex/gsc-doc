@@ -1,0 +1,22 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "playRumbleLoopOnPosition(<rumble>, <position>)",
+		"description": ["Plays a looping rumble at a given position."],
+		"params": [
+			{
+				"name": "rumble",
+				"types": ["string"],
+				"description": ["The name of the rumble to play."],
+				"optional": false
+			},
+			{
+				"name": "position",
+				"types": ["Vector3"],
+				"description": ["The position of the rumble."],
+				"optional": false
+			}
+		],
+		"example": ["playRumbleLoopOnPosition(\"artillery_quake\", level.player.origin);"]
+	}
+]

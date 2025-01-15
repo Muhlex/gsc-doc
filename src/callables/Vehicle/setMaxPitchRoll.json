@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> setMaxPitchRoll(<pitch>, <roll>)",
+		"description": ["Sets max pitch and roll angle for this vehicle."],
+		"params": [
+			{
+				"name": "pitch",
+				"types": ["float"],
+				"description": ["Max pitch angle."],
+				"optional": false
+			},
+			{ "name": "roll", "types": ["float"], "description": ["Max roll angle."], "optional": false }
+		],
+		"example": ["self setMaxPitchRoll(30, 30);"]
+	}
+]

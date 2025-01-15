@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "stopCinematicInGame()",
+		"description": ["Stop the currently playing cinematic."],
+		"example": ["stopCinematicInGame();"]
+	}
+]

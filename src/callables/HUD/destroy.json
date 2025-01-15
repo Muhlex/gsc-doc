@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<hud> destroy()",
+		"description": ["Remove this HUD element altogether."],
+		"example": ["self.bombStopwatch destroy();"]
+	}
+]

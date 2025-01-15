@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|unleashed"],
+		"usage": "toFloat(<string>)",
+		"description": ["Convert a string to a floating point number."],
+		"params": [
+			{
+				"name": "string",
+				"types": ["string"],
+				"description": ["String to convert."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["flt = toFloat(\"5.64\");"]
+	}
+]

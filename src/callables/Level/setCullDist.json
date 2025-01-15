@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "setCullDist(<cull distance>)",
+		"description": ["Set the cull distance for a level."],
+		"params": [
+			{
+				"name": "cull distance",
+				"types": ["int"],
+				"description": ["The cull distance."],
+				"optional": false
+			}
+		],
+		"example": ["setCullDist(7200);"]
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "getAllNodes()",
+		"description": ["Gets all of the nodes in a level."],
+		"return": { "types": ["Array"] },
+		"example": ["nodes = getAllNodes();"]
+	}
+]

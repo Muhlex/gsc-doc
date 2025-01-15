@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|mp"],
+		"usage": "<player> attackButtonPressed()",
+		"description": ["Check if the player is pressing the \"attack\" button."],
+		"return": { "types": ["bool"] },
+		"example": ["if (self attackButtonPressed()) {\n  // Code\n}"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": [
+			"Get if a player is pressing the \"attack\" button.",
+			"Engine command: `+attack`"
+		],
+		"receiver": { "types": ["player"] },
+		"return": { "types": ["bool"], "description": ["Whether the button is pressed."] }
+	}
+]

@@ -1,0 +1,11 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "setTimeScale(<timescale>)",
+		"description": ["Sets the current timescale."],
+		"params": [
+			{ "name": "timescale", "types": ["float"], "description": ["Timescale."], "optional": false }
+		],
+		"example": ["setTimeScale(0.5);"]
+	}
+]

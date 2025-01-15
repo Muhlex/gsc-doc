@@ -1,0 +1,24 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "fGetArg(<file>, <arg>)",
+		"description": ["Get a specific argument number from the current line."],
+		"params": [
+			{
+				"name": "file",
+				"types": ["int"],
+				"description": ["File handle returned by openFile."],
+				"optional": false
+			},
+			{ "name": "arg", "types": ["int"], "description": ["Argument number."], "optional": false }
+		],
+		"return": { "types": ["string"] },
+		"example": ["data.id = fGetArg(file, 1);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"deprecated": true,
+		"description": ["No effect. In CoD 4, read an argument from a file opened via `openFile`."],
+		"devOnly": true
+	}
+]

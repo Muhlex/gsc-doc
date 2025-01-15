@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "loadFX(<filename>)",
+		"description": ["Load the given effect."],
+		"params": [
+			{
+				"name": "filename",
+				"types": ["string"],
+				"description": ["The filename of the effect to be loaded, without \"fx/\" or \".efx\"."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["fx = loadFX(\"explosions/large_vehicle_explosion\");"]
+	}
+]

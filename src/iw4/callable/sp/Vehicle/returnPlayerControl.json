@@ -1,8 +1,0 @@
-{
-	"usage": "<entity> returnPlayerControl()",
-	"description": [
-		"After controlling a vehicle from script using something like setVehGoalPos(), if the vehicle is being driven by a player, you call this function to return control of the vehicle to the player.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["cobra returnPlayerControl();"]
-}

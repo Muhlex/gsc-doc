@@ -1,0 +1,48 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<entity> attach(<modelname>, <tagname>, <ignoreCollision>)",
+		"description": ["Attach a model to an entity."],
+		"params": [
+			{
+				"name": "modelname",
+				"types": ["string"],
+				"description": ["The model name to attach."],
+				"optional": false
+			},
+			{
+				"name": "tagname",
+				"types": ["string"],
+				"description": ["The tag to attach the model to."],
+				"optional": true
+			},
+			{
+				"name": "ignoreCollision",
+				"types": ["bool"],
+				"description": ["Flag to ignore collision. Defaults to false."],
+				"optional": true
+			}
+		],
+		"example": ["self attach(\"panzerflak_ammo\", \"tag_weapon_left\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Attach a model to an entity."],
+		"receiver": { "types": ["entity"] },
+		"params": [
+			{ "name": "model", "types": ["string"], "description": ["Model name to attach."] },
+			{
+				"name": "tag",
+				"types": ["string"],
+				"description": ["Tag name to attach the model to."],
+				"optional": true
+			},
+			{
+				"name": "ignore collision",
+				"types": ["bool"],
+				"description": ["Set to `true` to not count collisions with the model for the entity."],
+				"optional": true
+			}
+		]
+	}
+]

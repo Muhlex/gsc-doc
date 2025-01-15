@@ -1,0 +1,15 @@
+[
+	{
+		"scopes": ["iw3|mp"],
+		"usage": "<player> getViewModel()",
+		"description": ["Get the viewmodel name for the given player."],
+		"return": { "types": ["string"] },
+		"example": ["info[ \"viewmodel\" ] = self getViewModel();"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Get the viewmodel of a player."],
+		"receiver": { "types": ["player"] },
+		"return": { "types": ["string"], "description": ["Viewmodel name."] }
+	}
+]

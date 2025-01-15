@@ -1,0 +1,36 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<entity> detach(<modelname>, <tagname>)",
+		"description": ["Detaches an attached model from an entity."],
+		"params": [
+			{
+				"name": "modelname",
+				"types": ["string"],
+				"description": ["The model name to detach."],
+				"optional": false
+			},
+			{
+				"name": "tagname",
+				"types": ["string"],
+				"description": ["The tag to detach the model from."],
+				"optional": true
+			}
+		],
+		"example": ["self detach(\"xmodel/explosivepack\", \"tag_weapon_right\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Detach a previously attached model from an entity."],
+		"receiver": { "types": ["entity"] },
+		"params": [
+			{ "name": "model", "types": ["string"], "description": ["Model name to detach."] },
+			{
+				"name": "tag",
+				"types": ["string"],
+				"description": ["Tag name to detach the model from."],
+				"optional": true
+			}
+		]
+	}
+]

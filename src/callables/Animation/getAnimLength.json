@@ -1,0 +1,19 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "getAnimLength(<animation>)",
+		"description": ["Get the length of an animation."],
+		"params": [
+			{
+				"name": "animation",
+				"types": ["animation"],
+				"description": [
+					"Reference to a primitive animation (calling this function on a non-primitive animation will fail)."
+				],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["cycleTime = getAnimLength(climbAnim);"]
+	}
+]

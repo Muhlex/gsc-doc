@@ -1,0 +1,25 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "preCacheShellShock(<name>)",
+		"description": [
+			"Precaches the given shell shock effect. It must be called before any wait statements in the level script."
+		],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the shell shock effect to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheShellShock(\"ac130\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given shell shock effect. Must be called before it can be used."],
+		"params": [
+			{ "name": "shell shock", "types": ["string"], "description": ["Shell shock effect name."] }
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "getTeamScore(<team>)",
+		"description": ["Get a team's score."],
+		"params": [
+			{
+				"name": "team",
+				"types": ["string"],
+				"description": ["The team, either \"axis\" or \"allies\"."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["if (getTeamScore(\"allies\") > getTeamScore(\"axis\")) {\n  // Code\n}"]
+	}
+]

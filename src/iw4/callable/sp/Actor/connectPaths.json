@@ -1,8 +1,0 @@
-{
-	"usage": "<entity> connectPaths()",
-	"description": [
-		"Connects the paths that intersect with the entity. If the entity is a script_brushmodel then it must have DYNAMICPATH set to connect paths.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["vehicle connectPaths()"]
-}

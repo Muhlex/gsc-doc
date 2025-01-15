@@ -1,8 +1,0 @@
-{
-	"usage": "<player> showScoreBoard()",
-	"description": [
-		"Updates the scoreboard data on a given client if they are looking at it.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["self showScoreBoard();"]
-}

@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> getOrigin()",
+		"description": ["Gets the origin of an entity."],
+		"return": { "types": ["Vector3"] },
+		"example": ["origin = self getOrigin();"]
+	}
+]

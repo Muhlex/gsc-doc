@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|mp"],
+		"usage": "<player> fragButtonPressed()",
+		"description": ["Check if the player is pressing the \"frag\" button."],
+		"return": { "types": ["bool"] },
+		"example": ["if (self fragButtonPressed()) {\n  // Code\n}"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": [
+			"Get if a player is pressing the \"lethal grenade / equipment\" button.",
+			"Engine command: `+frag`"
+		],
+		"receiver": { "types": ["player"] },
+		"return": { "types": ["bool"], "description": ["Whether the button is pressed."] }
+	}
+]

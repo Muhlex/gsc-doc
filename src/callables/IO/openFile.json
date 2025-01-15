@@ -1,0 +1,50 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "openFile(<filename>, <mode>)",
+		"description": [
+			"Open a file for reading, writing or appending. If successful returns a file handle, otherwise returns -1."
+		],
+		"params": [
+			{
+				"name": "filename",
+				"types": ["string"],
+				"description": ["The name of the file to open."],
+				"optional": false
+			},
+			{
+				"name": "mode",
+				"types": ["string"],
+				"description": ["The file mode. Valid arguments are \"read\", \"write\" and \"append\"."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["file = openFile(\"data.csv\", \"read\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"deprecated": true,
+		"description": ["No effect. In CoD 4, opened a file for reading, writing or appending."],
+		"devOnly": true
+	},
+	{
+		"scopes": ["iw4|iw4x"],
+		"description": [
+			"Open a file for reading. The file is implicitly stored in global state, thus only one file can be open at a time. Close with `closeFile`."
+		],
+		"params": [
+			{ "name": "path", "types": ["string"], "description": ["Path to the file."] },
+			{
+				"name": "mode",
+				"types": ["\"read\""],
+				"description": ["Mode to open the file in. Must be `\"read\"`."]
+			}
+		],
+		"return": {
+			"name": "success",
+			"types": ["int"],
+			"description": ["`1` on success, `-1` if the file could not be opened."]
+		}
+	}
+]

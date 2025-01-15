@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "<player> isTalking()",
+		"description": ["Returns true if the player is talking via voice chat."],
+		"return": { "types": ["bool"] },
+		"example": ["self isTalking();"]
+	}
+]

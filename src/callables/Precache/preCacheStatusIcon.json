@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "preCacheStatusIcon(<name>)",
+		"description": ["Precaches the given status icon."],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the material to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheStatusIcon(\"hud_status_dead\");"]
+	}
+]

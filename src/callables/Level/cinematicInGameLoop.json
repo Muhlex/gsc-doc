@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "cinematicInGameLoop(<cinematic name>)",
+		"description": ["Play the given cinematic in a loop, without blocking."],
+		"params": [
+			{
+				"name": "cinematic name",
+				"types": ["string"],
+				"description": ["The cinematic name."],
+				"optional": false
+			}
+		],
+		"example": ["cinematicInGameLoop(\"cod_end\");"],
+		"deprecated": true
+	}
+]

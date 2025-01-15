@@ -1,0 +1,68 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "tableLookup(<filename>, <search column num>, <search value>, <return value column num>)",
+		"description": ["Look up a row in a table and pull out a particular column from that row."],
+		"params": [
+			{
+				"name": "filename",
+				"types": ["string"],
+				"description": ["The table to look up."],
+				"optional": false
+			},
+			{
+				"name": "search column num",
+				"types": ["int"],
+				"description": ["The column number of the stats table to search through."],
+				"optional": false
+			},
+			{
+				"name": "search value",
+				"types": ["string"],
+				"description": ["The value to use when searching the <search column num>."],
+				"optional": false
+			},
+			{
+				"name": "return value column num",
+				"types": ["int"],
+				"description": ["The column number value to return after we find the correct row."],
+				"optional": false
+			}
+		],
+		"example": ["level.maxRank = int(tableLookup(\"mp/rankTable.csv\", 0, \"maxrank\", 1));"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": [
+			"Search a column in a CSV file and return a value from a different column in the matched row."
+		],
+		"params": [
+			{ "name": "path", "types": ["string"], "description": ["Path to the file."] },
+			{
+				"name": "search column",
+				"types": ["int"],
+				"description": ["Index of the column to search in."]
+			},
+			{
+				"name": "search value",
+				"types": ["string"],
+				"description": ["Value to search for in the search column."]
+			},
+			{
+				"name": "result column",
+				"types": ["int"],
+				"description": ["Index of the column to return a value from."]
+			}
+		],
+		"return": {
+			"types": ["string"],
+			"description": [
+				"Value from the result column. Empty string if no match was found or the result column does not exist."
+			]
+		},
+		"example": [
+			"file = \"mp/killstreakTable.csv\"",
+			"requiredKills = int(tableLookup(file, 1, \"helicopter\", 4)); // 7"
+		]
+	}
+]

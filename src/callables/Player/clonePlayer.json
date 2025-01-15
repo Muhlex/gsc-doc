@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "<player> clonePlayer(<death animation duration>)",
+		"description": ["Clone the player's model for death animations."],
+		"params": [
+			{
+				"name": "death animation duration",
+				"types": ["float"],
+				"description": ["The duration of the death animation."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["entity"] },
+		"example": ["body = self ClonePlayer(deathAnimDuration);"]
+	}
+]

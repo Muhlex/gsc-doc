@@ -3,8 +3,13 @@
 	"$ref": "#/definitions/keyword",
 	"definitions": {
 		"keyword": {
-			"type": "array",
-			"items": { "type": "string" }
+			"type": "object",
+			"properties": {
+				"scopes": {
+					"type": "array",
+					"items": { "$ref": "./scope.json/#/definitions/scope-engine" }
+				}
+			}
 		}
 	}
 }

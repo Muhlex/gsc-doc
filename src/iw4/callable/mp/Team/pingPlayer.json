@@ -1,8 +1,0 @@
-{
-	"usage": "<player> pingPlayer()",
-	"description": [
-		"Flashes a player on their teammate's compasses.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["self pingPlayer();"]
-}

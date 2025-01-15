@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "getTimeScale()",
+		"description": ["Gets the current timescale."],
+		"return": { "types": ["float"] },
+		"example": ["timeScale = getTimeScale();"]
+	}
+]

@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> setTargetYaw(<yaw>)",
+		"description": [
+			"Set the target yaw direction for this vehicle. Goal yaw has priority over target yaw."
+		],
+		"params": [
+			{
+				"name": "yaw",
+				"types": ["angle"],
+				"description": ["The yaw direction of the target."],
+				"optional": false
+			}
+		],
+		"example": ["level.flak1 setTargetYaw(vec[1]);"]
+	}
+]

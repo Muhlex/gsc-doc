@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> eqOn()",
+		"description": ["Enables EQ on an entity."],
+		"example": ["ai eqOn();"]
+	}
+]

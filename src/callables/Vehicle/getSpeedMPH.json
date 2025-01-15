@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<entity> getSpeedMPH()",
+		"description": ["Gets the current speed in miles per hour."],
+		"return": { "types": ["float"] },
+		"example": ["speed = self getSpeedMPH();"]
+	}
+]

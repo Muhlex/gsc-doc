@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "setWinningPlayer(<player>)",
+		"description": ["Sets a player to be the winner."],
+		"params": [
+			{
+				"name": "player",
+				"types": ["Entity"],
+				"description": ["The player to set as the winning player."],
+				"optional": false
+			}
+		],
+		"example": ["setWinningPlayer(player);"]
+	}
+]

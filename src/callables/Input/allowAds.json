@@ -1,0 +1,28 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<player> allowAds(<allow>)",
+		"description": ["Sets whether the player can switch to ADS."],
+		"params": [
+			{
+				"name": "allow",
+				"types": ["bool"],
+				"description": ["A boolean: true if the player can switch ADS, false otherwise."],
+				"optional": false
+			}
+		],
+		"example": ["level.player allowAds(false);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Set whether a player can aim down sights."],
+		"receiver": { "types": ["player"] },
+		"params": [
+			{
+				"name": "allow",
+				"types": ["bool"],
+				"description": ["`true` to allow ADS, `false` to disable."]
+			}
+		]
+	}
+]

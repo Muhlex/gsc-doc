@@ -1,0 +1,24 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "preCacheString(<name>)",
+		"description": [
+			"Precaches the given string. It must be called before any wait statements in the level script."
+		],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the string to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheString(&\"MP_INTERMISSION\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given localized string. Must be called before it can be used."],
+		"params": [{ "name": "istring", "types": ["localized string"] }],
+		"example": ["precacheString(&\"MP_INTERMISSION\");"]
+	}
+]

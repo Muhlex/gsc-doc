@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "weaponClipSize(<weapon>)",
+		"description": ["Get the weapon clip size for the given weapon."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["clipSize = weaponClipSize(\"mosin_nagant_sniper\");"]
+	}
+]

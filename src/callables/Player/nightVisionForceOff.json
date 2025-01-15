@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp"],
+		"usage": "<player> nightVisionForceOff()",
+		"description": ["Clears the player's nightvision state."],
+		"example": ["level.player nightVisionForceOff();"]
+	}
+]

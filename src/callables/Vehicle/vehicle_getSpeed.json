@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw4|sp-mp"],
+		"usage": "<entity> getSpeed()",
+		"description": ["Gets the current speed in inches per second."],
+		"return": { "types": ["float"] },
+		"example": ["speed = self getSpeed();"]
+	}
+]

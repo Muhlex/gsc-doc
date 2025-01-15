@@ -1,8 +1,0 @@
-{
-	"usage": "<hud> reset()",
-	"description": [
-		"Reset a HUD element to its default state.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["element reset();"]
-}

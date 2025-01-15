@@ -1,0 +1,19 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "weaponInventoryType(<weapon>)",
+		"description": [
+			"Returns the way this weapon is stored, such as \"altmode\", \"item\", \"offhand\", or \"primary\"."
+		],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["string"] },
+		"example": ["if (weaponInventoryType(\"rpg_mp\") == \"item\") {\n  // Code\n}"]
+	}
+]

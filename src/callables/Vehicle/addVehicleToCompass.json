@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp"],
+		"usage": "<entity> addVehicleToCompass(<compassIconType>)",
+		"description": ["Add this vehicle to the compass."],
+		"params": [
+			{
+				"name": "compassIconType",
+				"types": ["string"],
+				"description": [
+					"Type of icon to show on the minimap, can be \"tank\", \"helicopter\", \"plane\" or \"automobile\"."
+				],
+				"optional": false
+			}
+		],
+		"example": ["tank addVehicleToCompass(\"tank\");"]
+	}
+]

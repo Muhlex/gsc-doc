@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "weaponFireTime(<weapon>)",
+		"description": ["Get the weapon fire time for the given weapon."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["fireTime = weaponFireTime(\"mosin_nagant_sniper\");"]
+	}
+]

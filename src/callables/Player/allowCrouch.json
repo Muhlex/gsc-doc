@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<player> allowCrouch(<allow>)",
+		"description": ["Sets whether the player can crouch."],
+		"params": [
+			{
+				"name": "allow",
+				"types": ["bool"],
+				"description": ["A boolean: true if the player can crouch, false otherwise."],
+				"optional": false
+			}
+		],
+		"example": ["level.player allowCrouch(false);"]
+	}
+]

@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<actor> flagEnemyUnattackable()",
+		"description": ["Set this actor not to attack its current enemy."],
+		"example": ["self flagEnemyUnattackable();"]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "fReadLn(<file>)",
+		"description": [
+			"Read the next line of comma separated value text from a script-controlled file. Returns the number of comma separated values in the line."
+		],
+		"params": [
+			{
+				"name": "file",
+				"types": ["int"],
+				"description": ["File handle returned by openFile."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["fReadLn(file);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"deprecated": true,
+		"description": ["No effect. In CoD 4, read a line from a file opened via `openFile`."],
+		"devOnly": true
+	}
+]

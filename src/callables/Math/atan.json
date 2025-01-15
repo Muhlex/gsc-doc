@@ -1,0 +1,25 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "aTan(<tan value>)",
+		"description": ["Returns an angle corresponding to a particular tangential value."],
+		"params": [
+			{
+				"name": "tan value",
+				"types": ["float"],
+				"description": ["A tangential value."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["upAngle = aTan(height / distance);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the arc/inverse tangent of a number."],
+		"params": [
+			{ "name": "tangent", "types": ["float"], "description": ["An angle's tangent value."] }
+		],
+		"return": { "types": ["float"], "description": ["Arc tangent in degrees."] }
+	}
+]

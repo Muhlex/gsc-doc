@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> unlockLightVis()",
+		"description": ["Unlocks the lights that are visible by this entity."],
+		"example": ["spawn unlockLightVis();"]
+	}
+]

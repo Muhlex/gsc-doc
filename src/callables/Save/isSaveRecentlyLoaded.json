@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "isSaveRecentlyLoaded()",
+		"description": ["Checks if the current savegame has recently been loaded."],
+		"return": { "types": ["bool"] },
+		"example": ["if (isSaveRecentlyLoaded()) {\n  // Code\n}"]
+	}
+]

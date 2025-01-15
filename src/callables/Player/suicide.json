@@ -1,0 +1,13 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<player> suicide()",
+		"description": ["Kills the player immediately as a suicide."],
+		"example": ["self suicide();"]
+	},
+	{
+		"scopes": ["iw4|mp"],
+		"description": ["Kills the player as a suicide."],
+		"receiver": { "types": ["player"] }
+	}
+]

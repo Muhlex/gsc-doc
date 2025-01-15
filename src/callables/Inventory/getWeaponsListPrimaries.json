@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> getWeaponsListPrimaries()",
+		"description": ["Gets an array of all primary weapons that the player has."],
+		"return": { "types": ["Array"] },
+		"example": ["weaponList = level.player getWeaponsListPrimaries();"]
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "preCacheTurret(<name>)",
+		"description": [
+			"Precaches the weapon info structure for the turret. It must be called before any wait statements in the level script."
+		],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the turret to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheTurret(\"mg42_tank_tiger\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given turret weapon. Must be called before it can be used."],
+		"params": [{ "name": "weapon", "types": ["string"], "description": ["Weapon name."] }]
+	}
+]

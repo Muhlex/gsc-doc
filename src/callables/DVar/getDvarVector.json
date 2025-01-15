@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Retrieve the value of a DVar parsed as vector."],
+		"params": [{ "name": "dvar", "types": ["string"], "description": ["Name of the DVar."] }],
+		"return": { "types": ["vector"] }
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> switchToOffhand(<weapon>)",
+		"description": ["Switch the player's offhand weapon."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"example": ["level.player switchToOffhand(weapon);"]
+	}
+]

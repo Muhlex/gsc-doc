@@ -1,0 +1,23 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "preCacheModel(<name>)",
+		"description": [
+			"Precaches the given model. It must be called before any wait statements in the level script."
+		],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the model to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheModel(\"prop_panzerfaust_lid\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given model. Must be called before it can be used."],
+		"params": [{ "name": "model", "types": ["string"], "description": ["Model name."] }]
+	}
+]

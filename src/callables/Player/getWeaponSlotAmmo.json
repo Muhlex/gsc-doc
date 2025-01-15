@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<player> getWeaponSlotAmmo(<weapon slot>)",
+		"description": ["Gets the ammo count for the weapon in the given slot."],
+		"params": [
+			{
+				"name": "weapon slot",
+				"types": ["string"],
+				"description": ["Valid weaponslots are \"primary\" and \"primaryb\"."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["ammo = level.player getWeaponSlotAmmo(\"primary\");"]
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<player> allowLean(<allow>)",
+		"description": ["Sets whether the player can lean."],
+		"params": [
+			{
+				"name": "allow",
+				"types": ["bool"],
+				"description": ["A boolean: true if the player can lean, false otherwise."],
+				"optional": false
+			}
+		],
+		"example": ["level.player allowLean(false);"]
+	}
+]

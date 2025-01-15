@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|unleashed"],
+		"usage": "FS_fCloseAll()",
+		"description": ["Closes all files opened by FS_fOpen."],
+		"example": ["FS_fCloseAll();"]
+	}
+]

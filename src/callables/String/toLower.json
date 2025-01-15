@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "toLower(<string>)",
+		"description": ["Converts a string to a lower case string which is returned."],
+		"params": [
+			{
+				"name": "string",
+				"types": ["string"],
+				"description": ["String to turn lower case."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["string"] },
+		"example": ["level.script = toLower(getDvar(\"mapname\"));"]
+	}
+]

@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "amplifyStop()",
+		"description": ["Disables amplification if active (see amplify)."],
+		"example": ["amplifyStop();"]
+	}
+]

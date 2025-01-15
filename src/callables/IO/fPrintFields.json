@@ -1,0 +1,30 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "fPrintFields(<file>, <output> ...)",
+		"description": [
+			"Writes items out to a script-controlled file, inserting a comma in-between each one."
+		],
+		"params": [
+			{
+				"name": "file",
+				"types": ["int"],
+				"description": ["File handle returned by openFile."],
+				"optional": false
+			},
+			{
+				"name": "output",
+				"types": ["string"],
+				"description": ["The string to be output."],
+				"optional": false
+			}
+		],
+		"example": ["fPrintFields(file, player, health, weaponName);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"deprecated": true,
+		"description": ["No effect. In CoD 4, wrote multiple values to a file opened via `openFile`."],
+		"devOnly": true
+	}
+]

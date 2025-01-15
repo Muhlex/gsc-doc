@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "<player> pingPlayer()",
+		"description": ["Flashes a player on their teammate's compasses."],
+		"example": ["self pingPlayer();"]
+	}
+]

@@ -1,0 +1,31 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "createPrintChannel(<channel name>)",
+		"description": ["Open a print channel."],
+		"params": [
+			{
+				"name": "channel name",
+				"types": ["string"],
+				"description": ["Name of the channel to be opened."],
+				"optional": false
+			}
+		],
+		"example": ["createPrintChannel(\"script_bler\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"usage": "createPrintChannel(<channel name>)",
+		"description": ["Open a print channel."],
+		"params": [
+			{
+				"name": "channel name",
+				"types": ["string"],
+				"description": ["Name of the channel to be opened."],
+				"optional": false
+			}
+		],
+		"example": ["createPrintChannel(\"script_bler\");"],
+		"devOnly": true
+	}
+]

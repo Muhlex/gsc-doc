@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> switchToWeapon(<weapon>)",
+		"description": ["Switch to a different weapon."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"example": ["level.player switchToWeapon(\"mosin_nagant\");"]
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> getOffhandSecondaryClass()",
+		"description": ["Gets the name (either \"smoke\" or \"flash\") that toggle is set to."],
+		"return": { "types": ["string"] },
+		"example": ["if (\"flash\" == level.player getOffhandSecondaryClass()) {\n  // Code\n}"]
+	}
+]

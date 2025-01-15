@@ -1,0 +1,13 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<entity> detachAll()",
+		"description": ["Detaches all attached models from an entity."],
+		"example": ["self detachAll();"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Detach all previously attached models from an entity."],
+		"receiver": { "types": ["entity"] }
+	}
+]

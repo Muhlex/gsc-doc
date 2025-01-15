@@ -1,0 +1,19 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> stalingradSpawn(<targetname>)",
+		"description": [
+			"Force spawns an actor from an actor spawner, reguardless of whether the spawn point is in sight or if the spawn will cause a telefrag."
+		],
+		"params": [
+			{
+				"name": "targetname",
+				"types": ["string"],
+				"description": ["Sets the targetname of the spawned entity."],
+				"optional": true
+			}
+		],
+		"return": { "types": ["Entity"] },
+		"example": ["spawned = driver stalingradSpawn(name);"]
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<player> isMeleeing()",
+		"description": ["Returns true if the player is currently using meleeing."],
+		"return": { "types": ["bool"] },
+		"example": ["if (level.player isMeleeing()) {\n  // Code\n}"]
+	}
+]

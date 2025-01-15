@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "<player> clearPerks()",
+		"description": ["Removes all perks for a player."],
+		"example": ["player clearPerks();"]
+	}
+]

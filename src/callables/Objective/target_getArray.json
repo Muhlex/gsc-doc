@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "target_getArray()",
+		"description": ["Gets an array of entities that are set as targets."],
+		"return": { "types": ["Array"] },
+		"example": ["targets = target_getArray();"]
+	}
+]

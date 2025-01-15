@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> isWaitingOnSound()",
+		"description": ["Checks if this entity is waiting on a sound notify."],
+		"return": { "types": ["bool"] },
+		"example": ["if (car isWaitingOnSound()) {\n  // Code\n}"]
+	}
+]

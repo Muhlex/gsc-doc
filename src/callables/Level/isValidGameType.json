@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"usage": "isValidGameType(<game type>)",
+		"description": ["Returns true if the string is a valid game type."],
+		"params": [
+			{
+				"name": "game type",
+				"types": ["string"],
+				"description": ["A string to check."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["bool"] },
+		"example": ["isValid = isValidGameType(getDvar(\"g_gametype\"));"]
+	}
+]

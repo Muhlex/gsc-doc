@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<actor> canSee(<target>)",
+		"description": ["Check to see if the actor can see the given entity."],
+		"params": [
+			{
+				"name": "target",
+				"types": ["entity"],
+				"description": ["The entity to check."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["bool"] },
+		"example": ["if (self canSee(player))"]
+	}
+]

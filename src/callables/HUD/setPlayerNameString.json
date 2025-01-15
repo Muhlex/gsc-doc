@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|mp", "iw4|sp-mp"],
+		"usage": "<hud> setPlayerNameString(<player>)",
+		"description": ["Set the player name string for a HUD element."],
+		"params": [
+			{
+				"name": "player",
+				"types": ["Entity"],
+				"description": ["A player entity."],
+				"optional": false
+			}
+		],
+		"example": ["hud setPlayerNameString(player);"]
+	}
+]

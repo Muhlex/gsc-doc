@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the square root of a number."],
+		"params": [{ "name": "number", "types": ["float", "int"] }],
+		"return": { "types": ["float"], "description": ["Square root."] }
+	}
+]

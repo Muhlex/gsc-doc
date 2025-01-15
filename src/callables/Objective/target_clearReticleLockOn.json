@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "target_clearReticleLockOn()",
+		"description": ["Cancels any lock-on sequence on the HUD."],
+		"example": ["target_clearReticleLockOn();"]
+	}
+]

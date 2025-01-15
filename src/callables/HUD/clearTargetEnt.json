@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<hud> clearTargetEnt()",
+		"description": ["Clear this waypoint from targetting an entity."],
+		"example": ["waypoint clearTargetEnt();"]
+	}
+]

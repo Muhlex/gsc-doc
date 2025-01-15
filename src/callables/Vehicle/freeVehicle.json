@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> freeVehicle()",
+		"description": ["Free this vehicle instance."],
+		"example": ["self freeVehicle();"]
+	}
+]

@@ -1,0 +1,35 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "combineAngles(<angles A>, <angles B>)",
+		"description": ["Returns angles B reoriented by angles A."],
+		"params": [
+			{
+				"name": "angles A",
+				"types": ["Vector3"],
+				"description": ["Angles representing the orientation in which to place angles B."]
+			},
+			{
+				"name": "angles B",
+				"types": ["Vector3"],
+				"description": ["Angles which will be reoriented."]
+			}
+		],
+		"return": { "types": ["Vector3"] },
+		"example": ["crateAnglesInWorld = combineAngles(boatAngles, crateAnglesInBoat);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Reorient a set of angles by a set of orientation angles."],
+		"params": [
+			{
+				"name": "orientation",
+				"types": ["vector"],
+				"description": ["Orientation angles in which to place the set of angles."]
+			},
+			{ "name": "angles", "types": ["vector"], "description": ["Angles to reorient."] }
+		],
+		"return": { "types": ["vector"], "description": ["Reoriented angles."] },
+		"example": ["crateAnglesInWorld = combineAngles(boatAngles, crateAnglesInBoat);"]
+	}
+]

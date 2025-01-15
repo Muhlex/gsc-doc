@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> setSpawnerTeam(<team>)",
+		"description": ["Set the team for this spawner."],
+		"params": [
+			{
+				"name": "team",
+				"types": ["string"],
+				"description": ["The team for this spawner. Either \"axis\", \"allies\", or \"neutral\"."],
+				"optional": false
+			}
+		],
+		"example": ["self setSpawnerTeam(\"axis\");"]
+	}
+]

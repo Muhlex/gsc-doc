@@ -1,0 +1,22 @@
+{
+	"id": "iw3",
+	"displayName": "IW3",
+	"gameTitle": "Call of Duty 4: Modern Warfare",
+	"featuresets": [
+		{
+			"id": "sp",
+			"displayName": "Singleplayer",
+			"description": "Base game singleplayer features."
+		},
+		{
+			"id": "mp",
+			"displayName": "Multiplayer",
+			"description": "Base game multiplayer features."
+		},
+		{
+			"id": "unleashed",
+			"displayName": "Unleashed",
+			"description": "Features available when targeting the 'CoD4: Unleashed' server mod."
+		}
+	]
+}

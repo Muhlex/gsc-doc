@@ -1,0 +1,20 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "getFXVisibility(<start>, <end>)",
+		"description": [
+			"Returns the amount of visibilty (0.0 - 1.0) between the start and end points."
+		],
+		"params": [
+			{
+				"name": "start",
+				"types": ["float"],
+				"description": ["Starting point."],
+				"optional": false
+			},
+			{ "name": "end", "types": ["float"], "description": ["Ending point."], "optional": false }
+		],
+		"return": { "types": ["float"] },
+		"example": ["vis = getFXVisibility(start, end);"]
+	}
+]

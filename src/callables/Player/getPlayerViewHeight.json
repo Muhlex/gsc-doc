@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "<player> getPlayerViewHeight()",
+		"description": ["Get the player's view height."],
+		"return": { "types": ["float"] },
+		"example": ["height = level.player getPlayerViewHeight();"]
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "<entity> getVehicleOwner()",
+		"description": ["Returns the owner of this particular vehicle."],
+		"return": { "types": ["Entity"] },
+		"example": ["eFlak88User = eFlak88 getVehicleOwner();"]
+	}
+]

@@ -1,0 +1,34 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "closeFile(<file>)",
+		"description": [
+			"Close a script-controlled file. Returns 1 if successful and -1 if unsuccessful."
+		],
+		"params": [
+			{
+				"name": "file",
+				"types": ["int"],
+				"description": ["File handle returned by openFile."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["closeFile(file);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"deprecated": true,
+		"description": ["No effect. In CoD 4, closed a file opened via `openFile`."],
+		"devOnly": true
+	},
+	{
+		"scopes": ["iw4|iw4x"],
+		"description": ["Close the file currently opened via `openFile`."],
+		"return": {
+			"name": "success",
+			"types": ["int"],
+			"description": ["`0` on success, a negative value on failure."]
+		}
+	}
+]

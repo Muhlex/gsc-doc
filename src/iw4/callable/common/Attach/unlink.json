@@ -1,8 +1,0 @@
-{
-	"usage": "<entity> unlink()",
-	"description": [
-		"Unlinks a linked entity from another entity.",
-		"*🚩 This documentation is for the IW3 version of this function credit to Raid Gaming and has yet to be reviewed/updated for IW4.*"
-	],
-	"example": ["guy unlink();"]
-}

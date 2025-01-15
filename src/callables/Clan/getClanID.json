@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|mp"],
+		"usage": "<player> getClanID()",
+		"description": ["Return the id of the player's clan."],
+		"return": { "types": ["int"] },
+		"example": ["player getClanID();"]
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "getDebugDvar(<dvar>)",
+		"description": ["Gets the value of a debug dvar, as a string."],
+		"params": [
+			{ "name": "dvar", "types": ["string"], "description": ["The dvar name."], "optional": false }
+		],
+		"return": { "types": ["string"] },
+		"example": ["if (getDebugDvar(\"debug\") != \"1\")"]
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "getNorthYaw()",
+		"description": ["Returns the yaw value of North."],
+		"return": { "types": ["float"] },
+		"example": ["northYaw = getNorthYaw();"]
+	}
+]

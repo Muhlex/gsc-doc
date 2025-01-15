@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "<entity> startFiring()",
+		"description": ["Starts a turret firing."],
+		"example": ["mg42 startFiring();"]
+	}
+]

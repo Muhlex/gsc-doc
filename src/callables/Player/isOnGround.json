@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> isOnGround()",
+		"description": ["Returns true if the player is on the ground."],
+		"return": { "types": ["bool"] },
+		"example": ["if (level.player isOnGround()) {\n  // Code\n}"]
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "preCacheRumble(<name>)",
+		"description": [
+			"Precaches the given rumble. It must be called before any wait statements in the level script."
+		],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the rumble to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheRumble(\"damage_heavy\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given rumble effect. Must be called before it can be used."],
+		"params": [{ "name": "rumble", "types": ["string"], "description": ["Rumble effect name."] }]
+	}
+]

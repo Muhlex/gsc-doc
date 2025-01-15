@@ -1,0 +1,25 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "isSubStr(<string>, <substring>)",
+		"description": ["Returns true/false if substring is a substring of string. Case sensitive."],
+		"params": [
+			{
+				"name": "string",
+				"types": ["string"],
+				"description": ["String to check for a substring."],
+				"optional": false
+			},
+			{
+				"name": "substring",
+				"types": ["string"],
+				"description": ["Substring to check for."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["bool"] },
+		"example": [
+			"if (isSubStr(self.classname, \"axis\") || isSubStr(self.classname, \"enemy\")) {\n  // Code\n}"
+		]
+	}
+]

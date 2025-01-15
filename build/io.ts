@@ -33,6 +33,12 @@ export async function createDir(path: PathLike) {
 	}
 }
 
+export function removeFileExtension(filename: string) {
+	const extensionDotIndex = filename.lastIndexOf(".");
+	if (extensionDotIndex === -1) return filename;
+	return filename.slice(0, extensionDotIndex);
+}
+
 export async function readJSON(path: PathLike) {
 	const text = await readFile(path, { encoding: "utf-8" });
 	return JSON.parse(text);

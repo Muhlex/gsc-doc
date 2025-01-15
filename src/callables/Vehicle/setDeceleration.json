@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> setDeceleration(<deceleration>)",
+		"description": ["Sets the deceleration for this vehicle."],
+		"params": [
+			{
+				"name": "deceleration",
+				"types": ["float"],
+				"description": ["The deceleration of the vehicle in miles per hour per second."],
+				"optional": false
+			}
+		],
+		"example": ["self setDeceleration(5);"]
+	}
+]

@@ -1,0 +1,21 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "distanceSquared(<point A>, <point B>)",
+		"description": [
+			"Returns the squared distance between two points - this is cheaper than the actual distance as it doesn't involve a square root."
+		],
+		"params": [
+			{ "name": "point A", "types": ["Vector3"], "description": ["The first point."] },
+			{ "name": "point B", "types": ["Vector3"], "description": ["The second point."] }
+		],
+		"return": { "types": ["float"] },
+		"example": ["dist = distanceSquared(models[j].origin, center);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the squared distance between two vectors. Cheaper than `distance`."],
+		"params": [{ "name": "a", "types": ["vector"] }, { "name": "b", "types": ["vector"] }],
+		"return": { "types": ["float"], "description": ["Squared vector distance."] }
+	}
+]

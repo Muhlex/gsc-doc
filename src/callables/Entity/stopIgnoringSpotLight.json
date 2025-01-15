@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> stopIgnoringSpotLight()",
+		"description": ["Stop preventing spot light from affecting this entity."],
+		"example": ["self stopIgnoringSpotLight()"]
+	}
+]

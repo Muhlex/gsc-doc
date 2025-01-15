@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|mp"],
+		"usage": "<player> getClanName()",
+		"description": ["Return the name of the player's clan."],
+		"return": { "types": ["string"] },
+		"example": ["player getClanName();"]
+	}
+]

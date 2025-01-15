@@ -1,0 +1,11 @@
+[
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the smaller of two numbers as a float."],
+		"params": [
+			{ "name": "a", "types": ["float", "int"] },
+			{ "name": "b", "types": ["float", "int"] }
+		],
+		"return": { "types": ["float"], "description": ["Smaller number."] }
+	}
+]

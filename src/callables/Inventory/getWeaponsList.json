@@ -1,0 +1,11 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> getWeaponsList()",
+		"description": [
+			"Gets an array of all weapons that the player has. Includes any alt-mode weapons (eg: m203_m4)."
+		],
+		"return": { "types": ["Array"] },
+		"example": ["weaponList = level.player getWeaponsList();"]
+	}
+]

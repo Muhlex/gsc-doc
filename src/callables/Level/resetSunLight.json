@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "resetSunLight()",
+		"description": ["Restores the map's default sunlight values."],
+		"example": ["resetSunLight();"]
+	}
+]

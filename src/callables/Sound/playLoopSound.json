@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> playLoopSound(<alias>)",
+		"description": ["Play a sound as a loop."],
+		"params": [
+			{
+				"name": "alias",
+				"types": ["string"],
+				"description": ["The sound alias to play."],
+				"optional": false
+			}
+		],
+		"example": ["car playLoopSound(\"peugeot_idle_low\");"]
+	}
+]

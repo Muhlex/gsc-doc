@@ -1,0 +1,12 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "getDebugDvarInt(<dvar>)",
+		"description": ["Gets the value of a debug dvar, as an integer."],
+		"params": [
+			{ "name": "dvar", "types": ["string"], "description": ["The dvar name."], "optional": false }
+		],
+		"return": { "types": ["int"] },
+		"example": ["if (getDebugDvarInt(\"debug_stopenemypos\") != -1)"]
+	}
+]

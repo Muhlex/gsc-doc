@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> giveStartAmmo(<weapon>)",
+		"description": ["Set the player's ammunition to the weapon's default starting ammunition."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"example": ["self giveStartAmmo(self.pers[\"weapon\"]);"]
+	}
+]

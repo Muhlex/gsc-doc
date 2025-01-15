@@ -1,0 +1,9 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"usage": "<entity> hasEQ()",
+		"description": ["Checks if an entity has EQ enabled."],
+		"return": { "types": ["bool"] },
+		"example": ["if (ai hasEQ()) {\n  // Code\n}"]
+	}
+]

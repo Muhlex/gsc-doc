@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp"],
+		"description": [
+			"Get the eye position of a player or actor (the first person camera position)."
+		],
+		"receiver": { "types": ["player", "actor"] },
+		"return": { "types": ["vector"] }
+	},
+	{
+		"scopes": ["iw3|mp", "iw4|mp"],
+		"description": ["Get the eye position of a player (the first person camera position)."],
+		"receiver": { "types": ["player"] },
+		"return": { "types": ["vector"] }
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "sin(<angle>)",
+		"description": ["Returns the sine of an angle."],
+		"params": [
+			{
+				"name": "angle",
+				"types": ["float"],
+				"description": ["An angle in degrees."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["frac = sin(degrees);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the sine of a number."],
+		"params": [
+			{ "name": "angle", "types": ["float", "int"], "description": ["An angle in degrees."] }
+		],
+		"return": { "types": ["float"], "description": ["Sine value."] }
+	}
+]

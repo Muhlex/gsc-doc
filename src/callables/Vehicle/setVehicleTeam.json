@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> setVehicleTeam(<team>)",
+		"description": ["Set which team a vehicle is on."],
+		"params": [
+			{
+				"name": "team",
+				"types": ["string"],
+				"description": ["The team name. Must be either \"allies\", \"axis\", or \"none\"."],
+				"optional": false
+			}
+		],
+		"example": ["self setVehicleTeam(\"allies\");"]
+	}
+]

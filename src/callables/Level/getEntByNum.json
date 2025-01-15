@@ -1,0 +1,33 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "getEntByNum(<entity number>)",
+		"description": ["Gets an entity by its entity number."],
+		"params": [
+			{
+				"name": "entity number",
+				"types": ["int"],
+				"description": ["The number of the entity to get."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["Entity"] },
+		"example": ["entity = getEntByNum(entNum);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"usage": "getEntByNum(<entity number>)",
+		"description": ["Gets an entity by its entity number."],
+		"params": [
+			{
+				"name": "entity number",
+				"types": ["int"],
+				"description": ["The number of the entity to get."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["Entity"] },
+		"example": ["entity = getEntByNum(entNum);"],
+		"devOnly": true
+	}
+]

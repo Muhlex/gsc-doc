@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> getAttachSize()",
+		"description": ["Returns the number of attached models for this entity."],
+		"example": ["size = self getAttachSize();"]
+	}
+]

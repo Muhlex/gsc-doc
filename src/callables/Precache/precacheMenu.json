@@ -1,0 +1,21 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "preCacheMenu(<name>)",
+		"description": ["Precaches a menu."],
+		"params": [
+			{
+				"name": "name",
+				"types": ["string"],
+				"description": ["Name of the menu to precache."],
+				"optional": false
+			}
+		],
+		"example": ["preCacheMenu(game[\"menu_serverinfo\"]);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Precache a given menu. Must be called before it can be used."],
+		"params": [{ "name": "menu", "types": ["string"], "description": ["Menu name."] }]
+	}
+]

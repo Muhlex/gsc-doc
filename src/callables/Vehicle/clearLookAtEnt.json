@@ -1,0 +1,8 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<entity> clearLookAtEnt()",
+		"description": ["Clear the entity the vehicle is orienting towards."],
+		"example": ["eTank clearLookAtEnt();"]
+	}
+]

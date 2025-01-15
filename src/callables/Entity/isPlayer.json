@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "isPlayer(<entity>)",
+		"description": ["Checks whether this entity is a player."],
+		"params": [
+			{
+				"name": "entity",
+				"types": ["Entity"],
+				"description": ["An entity that may be a player."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["bool"] },
+		"example": ["if (isPlayer(gunOwner)) {\n  // Code\n}"]
+	}
+]

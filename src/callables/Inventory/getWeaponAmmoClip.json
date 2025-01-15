@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|sp-mp", "iw4|sp-mp"],
+		"usage": "<player> getWeaponAmmoClip(<weapon>)",
+		"description": ["Get the amount of ammo left in the player's weapon's current clip."],
+		"params": [
+			{
+				"name": "weapon",
+				"types": ["string"],
+				"description": ["The weapon name."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["int"] },
+		"example": ["clipCount = level.player getWeaponAmmoClip(\"uzi\");"]
+	}
+]

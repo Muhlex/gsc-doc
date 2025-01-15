@@ -1,0 +1,16 @@
+[
+	{
+		"scopes": ["iw3|sp-unleashed", "iw4|sp-mp"],
+		"usage": "<player> setVelocity(<velocity>)",
+		"description": ["Sets the player's velocity."],
+		"params": [
+			{
+				"name": "velocity",
+				"types": ["Vector3"],
+				"description": ["New player velocity."],
+				"optional": false
+			}
+		],
+		"example": ["level.player setVelocity((-400, 0, 100));"]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"scopes": ["iw3|unleashed"],
+		"usage": "strPixLen(<string>)",
+		"description": ["Measures the average length of a given string if it would be printed."],
+		"params": [
+			{
+				"name": "string",
+				"types": ["string"],
+				"description": ["String to measure."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["len = strPixLen(\"Hello world!\");"]
+	}
+]

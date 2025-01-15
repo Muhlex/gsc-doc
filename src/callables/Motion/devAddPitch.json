@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<entity> devAddPitch(<pitch angle>)",
+		"description": [
+			"Add pitch in local space. This is just for development purposes and doesn't interpolate."
+		],
+		"params": [
+			{
+				"name": "pitch angle",
+				"types": ["float"],
+				"description": ["The change in pitch in degrees."],
+				"optional": false
+			}
+		],
+		"example": ["ent devAddPitch(15);"]
+	}
+]

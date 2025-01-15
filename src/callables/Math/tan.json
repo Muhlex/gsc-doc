@@ -1,0 +1,25 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "tan(<angle>)",
+		"description": ["Returns the tangent of an angle."],
+		"params": [
+			{
+				"name": "angle",
+				"types": ["float"],
+				"description": ["An angle in degrees."],
+				"optional": false
+			}
+		],
+		"return": { "types": ["float"] },
+		"example": ["frac = tan(degrees);"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Return the tangent of a number."],
+		"params": [
+			{ "name": "angle", "types": ["float", "int"], "description": ["An angle in degrees."] }
+		],
+		"return": { "types": ["float"], "description": ["Tangent value."] }
+	}
+]

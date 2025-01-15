@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "<player> adsButtonPressed()",
+		"description": ["Check if the player is pressing the \"ADS\" button."],
+		"return": { "types": ["bool"] },
+		"example": ["while (self adsButtonPressed()) {\n  // Code\n}"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": [
+			"Get if a player is pressing the \"aim down sights\" button.",
+			"Engine command: `+speed_throw`"
+		],
+		"receiver": { "types": ["player"] },
+		"return": { "types": ["bool"], "description": ["Whether the button is pressed."] }
+	}
+]

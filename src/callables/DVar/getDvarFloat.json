@@ -1,0 +1,18 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "getDvarFloat(<dvar>)",
+		"description": ["Gets the value of a dvar, as a floating point number."],
+		"params": [
+			{ "name": "dvar", "types": ["string"], "description": ["The dvar name."], "optional": false }
+		],
+		"return": { "types": ["float"] },
+		"example": ["oldDelay = getDvarFloat(\"effect_delay\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"description": ["Retrieve the value of a DVar parsed as float."],
+		"params": [{ "name": "dvar", "types": ["string"], "description": ["Name of the DVar."] }],
+		"return": { "types": ["float"] }
+	}
+]

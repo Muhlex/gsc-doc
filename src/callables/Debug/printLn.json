@@ -1,0 +1,31 @@
+[
+	{
+		"scopes": ["iw3|sp-mp"],
+		"usage": "printLn(<text>)",
+		"description": ["Development only - write line to the console."],
+		"params": [
+			{
+				"name": "text",
+				"types": ["string"],
+				"description": ["Text to be written."],
+				"optional": false
+			}
+		],
+		"example": ["printLn(\"I could be doing better!\");"]
+	},
+	{
+		"scopes": ["iw4|sp-mp"],
+		"usage": "printLn(<text>)",
+		"description": ["Development only - write line to the console."],
+		"params": [
+			{
+				"name": "text",
+				"types": ["string"],
+				"description": ["Text to be written."],
+				"optional": false
+			}
+		],
+		"example": ["printLn(\"I could be doing better!\");"],
+		"devOnly": true
+	}
+]

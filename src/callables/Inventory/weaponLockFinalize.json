@@ -1,0 +1,13 @@
+[
+	{
+		"scopes": ["iw3|sp", "iw4|sp-mp"],
+		"usage": "<player> weaponLockFinalize(<entity>)",
+		"description": [
+			"Locks player's weapon onto an entity. Implies weaponLockStart(), so this may be called to jump to a hard lock."
+		],
+		"params": [
+			{ "name": "entity", "types": ["Entity"], "description": ["An entity."], "optional": false }
+		],
+		"example": ["level.player weaponLockFinalize(enemyGuy);"]
+	}
+]
